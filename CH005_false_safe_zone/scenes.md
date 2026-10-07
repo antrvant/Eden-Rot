@@ -1,0 +1,17 @@
+# Scenes - CH005
+
+Metadata:
+
+- chapterID: CH005
+- sourceFilename: chapter_005_khu_an_toan_gia.md
+- language: English
+
+| sceneID | sceneName | locationID | purpose | entryState | exitState | requiredNPCs | enemies | interactables | sourceScene |
+|---|---|---|---|---|---|---|---|---|---|
+| SCN_CH005_FALSE_GATE | Gate to Paradise | LOC_CH005_FALSE_SAFE_GATE | Build hope, then introduce suspicion and child separation. | Trung and Hoang approach the checkpoint after CH004. | Player notices erased chalk, inward wire, and child-priority abuse. | char_trung;comp_hoang;npc_separated_mother;npc_separated_child;npc_fake_guard_01 | ENM_CH005_FAKE_GUARDS | ITM_CH005_ERASED_CHALK_MARK;ITM_CH005_PRIORITY_CHILD_TAG | Scene 1 - Cong vao thien duong. |
+| SCN_CH005_REGISTRY | Entry Registry | LOC_CH005_REGISTRY_TABLE | Turn bureaucracy into antagonist and reveal first Mai/Binh line. | Player reaches admin table. | Player gains registry access or triggers conflict. | char_trung;comp_hoang;npc_false_safe_manager;npc_corrupt_broker | ENM_CH005_FAKE_GUARDS | ITM_CH005_ENTRY_REGISTRY;ITM_CH005_PROCESSING_STAMP | Scene 2 - Danh sach nguoi vao cong. |
+| SCN_CH005_PRICE_OF_SAFETY | The Price of Safety | LOC_CH005_ENTRY_QUEUE | Show safety being sold through valuables and false priority. | Player waits or moves through entry queue. | Player sees wedding ring trade and child separation moral trigger. | char_trung;comp_hoang;npc_separated_mother;npc_retired_soldier;npc_corrupt_broker | ENM_CH005_CROWD_CRUSH_HAZARD | ITM_CH005_WEDDING_RING_SCRAPED;ITM_CH005_CONFISCATED_VALUABLES_BOX | Scene 3 - Gia cua an toan. |
+| SCN_CH005_QUARANTINE_TENT | Quarantine Tent | LOC_CH005_QUARANTINE_TENT | Introduce Lurker and expose medical cruelty. | Player hears children/survivors inside the locked tent. | Player survives Lurker and finds Mai's "NOT HERE" warning. | char_trung;comp_hoang;npc_quarantine_child;npc_quarantine_survivor | ENM_CH005_FIRST_LURKER;ENM_CH005_QUARANTINE_INFECTED | ITM_CH005_QUARANTINE_TENT_LOCK;ITM_CH005_FLARE;ITM_CH005_MAI_NOT_HERE_CHALK | Scene 4 - Leu cach ly. |
+| SCN_CH005_FAKE_STAMP | Truth Behind the Stamp | LOC_CH005_ADMIN_BACK_ROOM | Reveal organized fake safe zone and transfer records. | Player reaches back admin room during rising chaos. | Player obtains transfer clue, fake stamp, and real outpost map. | char_trung;comp_hoang;npc_false_safe_manager | ENM_CH005_FAKE_GUARDS;ENM_CH005_BANDIT_SCOUTS | ITM_CH005_FAKE_MILITARY_STAMP;ITM_CH005_RIPPED_TRANSFER_LIST;ITM_CH005_EDEN_E_MARK;ITM_CH005_REAL_OUTPOST_MAP;ITM_CH005_GET_OUT_CHALK | Scene 5 - Su that sau con dau. |
+| SCN_CH005_GATE_COLLAPSE | Gate Collapse | LOC_CH005_SERVICE_GATE | Escape setpiece as false order fails. | Riot begins and infected/Lurker escape from tent. | Trung, Hoang, and some survivors escape through service gate. | char_trung;comp_hoang;npc_retired_soldier;npc_separated_mother | ENM_CH005_FIRST_LURKER;ENM_CH005_HIDDEN_REFUGEE_INFECTED;ENM_CH005_BANDIT_SCOUTS;ENM_CH005_CROWD_CRUSH_HAZARD | ITM_CH005_FAKE_SAFE_EVIDENCE_BUNDLE | Scene 6 - Cong sup do. |
+| SCN_CH005_AFTER_FENCE | After the Fence | LOC_CH005_DRAINAGE_RETREAT | End with trust wound and real army outpost destination. | Trung and Hoang escape the false safe zone. | Real army outpost becomes next destination. | char_trung;comp_hoang;npc_separated_mother | ENM_CH005_ROAD_INFECTED | ITM_CH005_RIPPED_TRANSFER_LIST;ITM_CH005_REAL_OUTPOST_MAP;ITM_CH005_CHILD_TRANSPORT_ROUTE | Scene 7 - Sau hang rao. |

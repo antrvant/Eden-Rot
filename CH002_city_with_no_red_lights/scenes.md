@@ -1,0 +1,17 @@
+# Scenes - CH002
+
+Metadata:
+
+- chapterID: CH002
+- sourceFilename: chapter_002_thanh_pho_khong_con_den_do.md
+- language: English
+
+| sceneID | sceneName | locationID | purpose | entryState | exitState | requiredNPCs | enemies | interactables | sourceScene |
+|---|---|---|---|---|---|---|---|---|---|
+| SCN_CH002_BASEMENT_ESCAPE | Basement Parking | LOC_CH002_COMPANY_BASEMENT | End office tutorial, resolve car/key issue, and force Trung into the city. | Starts immediately after Chapter 001 basement escape. | Trung abandons or loses the car route and exits on foot or alternate route. | char_trung;npc_coworker_01 | ENM_CH002_INFECTED_DRIVER;ENM_CH002_FIRST_RUNNER;ENM_CH001_INFECTED_BOSS | ITM_CH002_CAR_KEY;ITM_CH002_BROKEN_KEYCHAIN;ITM_CH002_LOCKED_CAR;ITM_CH002_TRUNG_PHONE | Scene 1 - Bai xe tang ham. |
+| SCN_CH002_NO_RED_LIGHTS | The Road With No Red Lights | LOC_CH002_SAIGON_INTERSECTION | Show traffic, law, media, and civic trust collapsing in public. | Trung reaches the central street/intersection. | Player crosses the blocked road and receives Mai's route warning. | char_trung;npc_taxi_driver;npc_fake_medic_01 | ENM_CH002_STREET_HORDE;ENM_CH002_FAKE_RESCUE_LOOTERS | ITM_CH002_VALUABLE_RING;ITM_CH002_BANDAGE;ITM_CH002_TRUNG_PHONE | Scene 2 - Duong khong con den do. |
+| SCN_CH002_CONVENIENCE_STORE | Convenience Store | LOC_CH002_CONVENIENCE_STORE | Teach scavenging, barter/threat choice, and moral economy collapse. | Phone battery and supplies are low. | Player leaves with supplies or after store chaos erupts. | char_trung;npc_store_owner;npc_lost_mother;npc_young_looter_01;npc_young_looter_02 | ENM_CH002_STORE_LOOTERS | ITM_CH002_WATER_BOTTLE;ITM_CH002_BANDAGE;ITM_CH002_POWER_BANK;ITM_CH002_MILK_BOX | Scene 3 - Cua hang tien loi. |
+| SCN_CH002_HOANG_CALL | Hoang's Call | LOC_CH002_BACK_ALLEY | Introduce Hoang as a useful, caring, pragmatic friend. | Trung reaches the alley and connects power bank. | Player receives route hint and Hoang pragmatism seed. | char_trung;comp_hoang | none | ITM_CH002_POWER_BANK;ITM_CH002_HOANG_ROUTE_PIN;ITM_CH002_TRUNG_PHONE | Scene 4 - Cuoc goi cua Hoang. |
+| SCN_CH002_LOST_CHILD | The Mother Who Lost Her Child | LOC_CH002_OVERPASS_SCHOOL_BUS | Present the first major street moral choice between a stranger and family urgency. | Trung sees the mother searching near the overturned kindergarten bus. | Nhi is rescued, abandoned, or indirectly helped; Trung continues toward home. | char_trung;npc_lost_mother;npc_nhi | ENM_CH002_SCHOOL_GUARD_INFECTED | ITM_CH002_SCHOOL_BUS_DOOR;ITM_CH002_CHILD_RIBBON;ITM_CH002_TRUNG_PHONE | Scene 5 - Nguoi me mat con. |
+| SCN_CH002_SILENT_APARTMENT_BUILDING | Silent Apartment Building | LOC_CH002_TRUNG_APARTMENT_BUILDING | Build dread through abandoned security, staircase blood, and neighbor panic. | Trung reaches his apartment building gate. | Trung reaches the door of apartment 1208. | char_trung;npc_apartment_guard;npc_apartment_neighbor;npc_old_woman_stairs | ENM_CH002_APARTMENT_HAZARD | ITM_CH002_TRUNG_PHONE | Scene 6 - Chung cu im lang. |
+| SCN_CH002_EMPTY_HOME | Empty Home | LOC_CH002_TRUNG_APARTMENT_1208 | Deny reunion and start Chapter 003 investigation. | Door to apartment 1208 is ajar. | Player reads Mai's fridge note and unlocks chalk trail objective. | char_trung;char_mai;char_binh | none | ITM_CH002_FRIDGE_NOTE;ITM_CH002_CHALK_MARK;ITM_CH002_BROKEN_BINH_TOY;ITM_CH002_BLOOD_TRACE;ITM_CH002_UNEATEN_LUNCH_BOX;ITM_CH002_BROKEN_PHONE_SCREEN | Scene 6 - Chung cu im lang ending. |
