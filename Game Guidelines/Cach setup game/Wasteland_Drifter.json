@@ -1,0 +1,4140 @@
+{
+  "title": "Wasteland Drifter",
+  "genre": "Isometric Survival RPG (Cổ điển), Action-Adventure, Strategy.",
+  "setting": "Thế giới tận thế năm 202X, khi xuất hiện đại dịch xác sống. Trái đất trở thành một vùng đất hoang tàn, khô khốc với những tàn tích rỉ sét của nền văn minh cũ. Con người co cụm trong các thành phố làm từ container. Nguồn nước sạch và đạn dược là thứ quý giá nhất. Những tháp radio cũ và các hầm ngầm quân sự là nơi ẩn chứa những bí mật về nguồn gốc virus.",
+  "coreLoop": "Khám phá vùng đất hoang > Tiêu diệt Zombie để bảo vệ bản thân (Kills) > Thu thập nhu yếu phẩm và tiền cổ (Cash) > Giao dịch trang bị tại các khu định cư > Tuyển mộ người đồng hành (Followers) > Mở rộng tầm ảnh hưởng và tìm kiếm vùng đất an toàn hơn.",
+  "tone": "U tối, gai góc (Gritty), tuyệt vọng nhưng xen lẫn sự mỉa mai (Black Humor). Hình ảnh chủ đạo là màu nâu của đất cát, màu xám của bê tông đổ nát và màu xanh neon mờ nhạt của các thiết bị điện tử cũ",
+  "entityCounts": {
+    "mainPlayers": 1,
+    "followers": 10,
+    "npcs": 100,
+    "enemies": 100
+  },
+  "questCounts": {
+    "main": 5,
+    "side": 10,
+    "hidden": 2,
+    "chain": 3
+  },
+  "structure": [
+    {
+      "title": "The Deserted Metro",
+      "summary": "In the war-torn urban remains, survivors struggle to stay alive amidst the chaos of zombies and dwindling resources. As the player, you endeavor to gather allies, accumulate supplies, and uncover the source of the outbreak.",
+      "chapters": [
+        {
+          "title": "The Awakening",
+          "description": "The player's journey begins in a makeshift settlement where rumors of the ‘Crimson Virus’ origin spread. Gathering supplies and defeating local zombies reveals the presence of a mysterious cult advocating for creating a new world.",
+          "entitiesInvolved": []
+        },
+        {
+          "title": "The Secrets of the Underground",
+          "description": "Exploring abandoned subway stations leads to encounters with surviving factions. Players discover encrypted data containing information about the military's experiments that led to the outbreak.",
+          "entitiesInvolved": []
+        },
+        {
+          "title": "Echoes of the Past",
+          "description": "A massive radio tower holds a beacon for survivors. Players face a challenging boss, the ‘Undead Guardian,’ who was tasked to protect military secrets. Securing the tower opens up new quests and trading opportunities.",
+          "entitiesInvolved": []
+        }
+      ]
+    },
+    {
+      "title": "The Cursed Forest",
+      "summary": "With the whispers of the forest guiding you, the second act introduces a mystical aspect. Players search for an ancient artifact rumored to halt the virus progression.",
+      "chapters": [
+        {
+          "title": "The Path of Shadows",
+          "description": "Players navigate through haunted woods, where spirits of the past reveal clues to the artifact's location. They face spectral zombies that require strategic thinking to defeat.",
+          "entitiesInvolved": []
+        },
+        {
+          "title": "The Collectors’ Duel",
+          "description": "A confrontation with a rival faction, ‘The Collectors,’ ensues. Players must outsmart them in a series of challenges to gain crucial access to hidden parts of the ruins.",
+          "entitiesInvolved": []
+        },
+        {
+          "title": "The Heart of the Forest",
+          "description": "Reaching the shrine unlocks a powerful new ability linked with nature. Players must defend it from an overwhelming zombie horde, marking a climax in the quest for the artifact.",
+          "entitiesInvolved": []
+        }
+      ]
+    },
+    {
+      "title": "The Steel Wastes",
+      "summary": "In the heart of industrial ruins, players must navigate competing settlements while uncovering how corporations exploited survivors in the chaos. Factions fight for control over the limited resources.",
+      "chapters": [
+        {
+          "title": "Conflict of Interests",
+          "description": "Players enter a violent conflict zone controlled by antagonistic factions. Through skillful negotiation or combat, players gather intel on the corrupt dealings of former alliances.",
+          "entitiesInvolved": []
+        },
+        {
+          "title": "The Underground Market",
+          "description": "The black market allows players to acquire secret recipes for powerful weaponry. However, dealing with the criminal underworld requires cunning and strategy.",
+          "entitiesInvolved": []
+        },
+        {
+          "title": "The Fall of Steel",
+          "description": "Here, players face advanced monstrous zombies created through experimentation. Defeating the leader of the hoarded zombie army gives access to combat upgrades and lore about the corporation's downfall.",
+          "entitiesInvolved": []
+        }
+      ]
+    },
+    {
+      "title": "The Frozen Abyss",
+      "summary": "A perilous journey into icy caves exposes players to new mutated threats. Here, alliances are tested, and the urgency to find ways to counter the primary virus escalates.",
+      "chapters": [
+        {
+          "title": "Beneath the Ice",
+          "description": "Players unearth frozen zombies and secrets of previous survival attempts. The chilling environment creates new mechanics for survival, enhancing the urgency.",
+          "entitiesInvolved": []
+        },
+        {
+          "title": "The Betrayal",
+          "description": "Amidst alliance tensions, a betrayal occurs leading to significant losses. Players must rally remaining allies to fend off the ensuing carnage.",
+          "entitiesInvolved": []
+        },
+        {
+          "title": "The Ancient Code",
+          "description": "Upon reaching the citadel, players unlock historical archives revealing the virus's origin. They must face the ‘Frostborn Monarch,’ a terrifying zombie overlord guarding the secrets.",
+          "entitiesInvolved": []
+        }
+      ]
+    },
+    {
+      "title": "The Radiant Bastion",
+      "summary": "In the final act, players gather their forces and knowledge to mount a last stand against the remnants of the virus and uncover the true enemy behind the apocalypse.",
+      "chapters": [
+        {
+          "title": "The Last Rally",
+          "description": "Unite the factions from previous acts to prepare for the final confrontation. Players must strategically manage resources and allies.",
+          "entitiesInvolved": []
+        },
+        {
+          "title": "The Revelation",
+          "description": "Confronting the masterminds behind the virus leads to intense narrative revelations about hope, survival, and the burden of the past.",
+          "entitiesInvolved": []
+        },
+        {
+          "title": "The Final Stand",
+          "description": "A climactic battle ensues as players fight combined forces of zombies and corrupted enemies. Success or failure determines the fate of humanity, bringing closure and open-ended questions for future expansion.",
+          "entitiesInvolved": []
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "player_wanderer",
+      "name": "Kẻ Lang Thang",
+      "type": "Main Player",
+      "role": "Người sống sót, anh hùng tìm kiếm sự thật và tương lai cho nhân loại",
+      "region": "Vùng Đất Sắt Vụn",
+      "stats": {
+        "maxHp": 300,
+        "maxMp": 200,
+        "attack": 60,
+        "defense": 50,
+        "magic": 40,
+        "magicDefense": 40,
+        "speed": 40,
+        "agility": 35,
+        "luck": 30,
+        "exp": 0
+      }
+    },
+    {
+      "id": "pc_engineer_ky",
+      "name": "Kỹ Sư Kỳ",
+      "type": "Player Character",
+      "role": "Thợ sửa chữa, chuyên gia công nghệ phế liệu, hỗ trợ kỹ thuật",
+      "region": "Vùng Đất Sắt Vụn",
+      "stats": {
+        "maxHp": 280,
+        "maxMp": 250,
+        "attack": 35,
+        "defense": 45,
+        "magic": 70,
+        "magicDefense": 60,
+        "speed": 30,
+        "agility": 50,
+        "luck": 35,
+        "exp": 0
+      }
+    },
+    {
+      "id": "pc_scavenger_rua",
+      "name": "Rùa Thợ Săn Rác",
+      "type": "Player Character",
+      "role": "Tìm kiếm tài nguyên, do thám, kỹ năng sinh tồn trong hoang mạc",
+      "region": "Vùng Đất Sắt Vụn",
+      "stats": {
+        "maxHp": 350,
+        "maxMp": 150,
+        "attack": 40,
+        "defense": 70,
+        "magic": 20,
+        "magicDefense": 40,
+        "speed": 25,
+        "agility": 45,
+        "luck": 40,
+        "exp": 0
+      }
+    },
+    {
+      "id": "pc_veteran_linh",
+      "name": "Lính Vệ Linh",
+      "type": "Player Character",
+      "role": "Cựu binh, chuyên gia chiến đấu và chiến thuật",
+      "region": "Đồng Bằng Câm Lặng",
+      "stats": {
+        "maxHp": 320,
+        "maxMp": 180,
+        "attack": 75,
+        "defense": 60,
+        "magic": 25,
+        "magicDefense": 35,
+        "speed": 38,
+        "agility": 30,
+        "luck": 28,
+        "exp": 0
+      }
+    },
+    {
+      "id": "pc_historian_hien",
+      "name": "Hiền Nhà Sử Học",
+      "type": "Player Character",
+      "role": "Nghiên cứu lịch sử, giải mã bí ẩn về đại dịch",
+      "region": "Đồng Bằng Câm Lặng",
+      "stats": {
+        "maxHp": 250,
+        "maxMp": 300,
+        "attack": 20,
+        "defense": 30,
+        "magic": 80,
+        "magicDefense": 70,
+        "speed": 28,
+        "agility": 30,
+        "luck": 45,
+        "exp": 0
+      }
+    },
+    {
+      "id": "pc_medic_mai",
+      "name": "Mai Y Sĩ",
+      "type": "Player Character",
+      "role": "Chuyên gia y tế, cung cấp hồi phục và hỗ trợ sinh tồn",
+      "region": "Đồng Bằng Câm Lặng",
+      "stats": {
+        "maxHp": 270,
+        "maxMp": 320,
+        "attack": 25,
+        "defense": 35,
+        "magic": 85,
+        "magicDefense": 75,
+        "speed": 32,
+        "agility": 30,
+        "luck": 38,
+        "exp": 0
+      }
+    },
+    {
+      "id": "pc_agent_phong",
+      "name": "Phong Đặc Vụ",
+      "type": "Player Character",
+      "role": "Do thám, xâm nhập, ám sát, chuyên gia tác chiến bí mật",
+      "region": "Rừng Thép Đổ Nát",
+      "stats": {
+        "maxHp": 290,
+        "maxMp": 220,
+        "attack": 70,
+        "defense": 40,
+        "magic": 30,
+        "magicDefense": 30,
+        "speed": 45,
+        "agility": 60,
+        "luck": 35,
+        "exp": 0
+      }
+    },
+    {
+      "id": "pc_hacker_tran",
+      "name": "Trần Kẻ Hacking",
+      "type": "Player Character",
+      "role": "Vô hiệu hóa hệ thống, thu thập thông tin tình báo",
+      "region": "Rừng Thép Đổ Nát",
+      "stats": {
+        "maxHp": 240,
+        "maxMp": 350,
+        "attack": 15,
+        "defense": 25,
+        "magic": 90,
+        "magicDefense": 65,
+        "speed": 30,
+        "agility": 55,
+        "luck": 40,
+        "exp": 0
+      }
+    },
+    {
+      "id": "pc_mercenary_duy",
+      "name": "Duy Lính Đánh Thuê",
+      "type": "Player Character",
+      "role": "Chuyên gia vũ khí hạng nặng, bảo vệ tiền tuyến",
+      "region": "Rừng Thép Đổ Nát",
+      "stats": {
+        "maxHp": 380,
+        "maxMp": 120,
+        "attack": 85,
+        "defense": 75,
+        "magic": 10,
+        "magicDefense": 25,
+        "speed": 28,
+        "agility": 20,
+        "luck": 25,
+        "exp": 0
+      }
+    },
+    {
+      "id": "pc_scientist_huy",
+      "name": "Huy Nhà Khoa Học",
+      "type": "Player Character",
+      "role": "Cựu nhà khoa học của The Architects, cung cấp kiến thức nội bộ",
+      "region": "Thung Lũng Huyền Bí",
+      "stats": {
+        "maxHp": 260,
+        "maxMp": 310,
+        "attack": 20,
+        "defense": 30,
+        "magic": 80,
+        "magicDefense": 70,
+        "speed": 28,
+        "agility": 32,
+        "luck": 48,
+        "exp": 0
+      }
+    },
+    {
+      "id": "pc_architect_linh",
+      "name": "Linh Kiến Trúc Sư Cũ",
+      "type": "Player Character",
+      "role": "Nội gián, dẫn đường, am hiểu cấu trúc The Architects",
+      "region": "Thung Lũng Huyền Bí",
+      "stats": {
+        "maxHp": 260,
+        "maxMp": 280,
+        "attack": 30,
+        "defense": 35,
+        "magic": 75,
+        "magicDefense": 65,
+        "speed": 35,
+        "agility": 50,
+        "luck": 42,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_scrap_elder",
+      "name": "Trưởng Làng Phế Liệu",
+      "type": "NPC",
+      "role": "Trưởng cộng đồng người sống sót",
+      "region": "Vùng Đất Sắt Vụn",
+      "stats": {
+        "maxHp": 180,
+        "maxMp": 50,
+        "attack": 10,
+        "defense": 15,
+        "magic": 10,
+        "magicDefense": 10,
+        "speed": 15,
+        "agility": 15,
+        "luck": 40,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_junk_trader",
+      "name": "Người Buôn Rác",
+      "type": "NPC",
+      "role": "Thương nhân, mua bán đồ phế liệu",
+      "region": "Vùng Đất Sắt Vụn",
+      "stats": {
+        "maxHp": 150,
+        "maxMp": 30,
+        "attack": 8,
+        "defense": 12,
+        "magic": 5,
+        "magicDefense": 8,
+        "speed": 18,
+        "agility": 20,
+        "luck": 50,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_rusty_smith",
+      "name": "Thợ Rèn Gỉ Sét",
+      "type": "NPC",
+      "role": "Thợ rèn, nâng cấp trang bị",
+      "region": "Vùng Đất Sắt Vụn",
+      "stats": {
+        "maxHp": 200,
+        "maxMp": 40,
+        "attack": 15,
+        "defense": 20,
+        "magic": 5,
+        "magicDefense": 10,
+        "speed": 10,
+        "agility": 12,
+        "luck": 30,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_mechanic_apprentice",
+      "name": "Thợ Học Việc Cơ Khí",
+      "type": "NPC",
+      "role": "Học việc, cung cấp nhiệm vụ sửa chữa nhỏ",
+      "region": "Vùng Đất Sắt Vụn",
+      "stats": {
+        "maxHp": 120,
+        "maxMp": 20,
+        "attack": 5,
+        "defense": 8,
+        "magic": 3,
+        "magicDefense": 5,
+        "speed": 15,
+        "agility": 18,
+        "luck": 25,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_refugee_child_1",
+      "name": "Đứa Trẻ Tị Nạn An",
+      "type": "NPC",
+      "role": "Kể chuyện, tạo không khí",
+      "region": "Vùng Đất Sắt Vụn",
+      "stats": {
+        "maxHp": 80,
+        "maxMp": 0,
+        "attack": 2,
+        "defense": 3,
+        "magic": 0,
+        "magicDefense": 2,
+        "speed": 10,
+        "agility": 10,
+        "luck": 20,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_refugee_child_2",
+      "name": "Đứa Trẻ Tị Nạn Bình",
+      "type": "NPC",
+      "role": "Kể chuyện, tạo không khí",
+      "region": "Vùng Đất Sắt Vụn",
+      "stats": {
+        "maxHp": 80,
+        "maxMp": 0,
+        "attack": 2,
+        "defense": 3,
+        "magic": 0,
+        "magicDefense": 2,
+        "speed": 10,
+        "agility": 10,
+        "luck": 20,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_gate_guard_1",
+      "name": "Lính Canh Cổng Hùng",
+      "type": "NPC",
+      "role": "Lính canh, bảo vệ lối vào",
+      "region": "Vùng Đất Sắt Vụn",
+      "stats": {
+        "maxHp": 250,
+        "maxMp": 60,
+        "attack": 40,
+        "defense": 30,
+        "magic": 15,
+        "magicDefense": 20,
+        "speed": 25,
+        "agility": 20,
+        "luck": 18,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_gate_guard_2",
+      "name": "Lính Canh Cổng Dũng",
+      "type": "NPC",
+      "role": "Lính canh, bảo vệ lối vào",
+      "region": "Vùng Đất Sắt Vụn",
+      "stats": {
+        "maxHp": 250,
+        "maxMp": 60,
+        "attack": 40,
+        "defense": 30,
+        "magic": 15,
+        "magicDefense": 20,
+        "speed": 25,
+        "agility": 20,
+        "luck": 18,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_scavenger_elder",
+      "name": "Trưởng Nhóm Tìm Kiếm",
+      "type": "NPC",
+      "role": "Người chỉ huy nhóm tìm kiếm, giao nhiệm vụ",
+      "region": "Vùng Đất Sắt Vụn",
+      "stats": {
+        "maxHp": 220,
+        "maxMp": 50,
+        "attack": 25,
+        "defense": 20,
+        "magic": 10,
+        "magicDefense": 15,
+        "speed": 22,
+        "agility": 25,
+        "luck": 35,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_medical_tent_owner",
+      "name": "Chủ Lều Y Tế",
+      "type": "NPC",
+      "role": "Người chăm sóc y tế, bán thuốc men",
+      "region": "Vùng Đất Sắt Vụn",
+      "stats": {
+        "maxHp": 160,
+        "maxMp": 80,
+        "attack": 5,
+        "defense": 10,
+        "magic": 30,
+        "magicDefense": 20,
+        "speed": 15,
+        "agility": 15,
+        "luck": 38,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_old_storyteller",
+      "name": "Người Kể Chuyện Già",
+      "type": "NPC",
+      "role": "Kể chuyện về quá khứ, truyền thuyết",
+      "region": "Vùng Đất Sắt Vụn",
+      "stats": {
+        "maxHp": 100,
+        "maxMp": 20,
+        "attack": 3,
+        "defense": 5,
+        "magic": 8,
+        "magicDefense": 10,
+        "speed": 8,
+        "agility": 8,
+        "luck": 45,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_parts_vendor",
+      "name": "Người Bán Phụ Tùng",
+      "type": "NPC",
+      "role": "Bán các bộ phận cơ khí",
+      "region": "Vùng Đất Sắt Vụn",
+      "stats": {
+        "maxHp": 150,
+        "maxMp": 30,
+        "attack": 8,
+        "defense": 12,
+        "magic": 5,
+        "magicDefense": 8,
+        "speed": 18,
+        "agility": 20,
+        "luck": 50,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_water_collector",
+      "name": "Người Thu Gom Nước",
+      "type": "NPC",
+      "role": "Đảm bảo nguồn nước",
+      "region": "Vùng Đất Sắt Vụn",
+      "stats": {
+        "maxHp": 180,
+        "maxMp": 40,
+        "attack": 10,
+        "defense": 15,
+        "magic": 5,
+        "magicDefense": 10,
+        "speed": 20,
+        "agility": 22,
+        "luck": 30,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_food_provider",
+      "name": "Người Cung Cấp Thực Phẩm",
+      "type": "NPC",
+      "role": "Cung cấp lương thực",
+      "region": "Vùng Đất Sắt Vụn",
+      "stats": {
+        "maxHp": 180,
+        "maxMp": 40,
+        "attack": 10,
+        "defense": 15,
+        "magic": 5,
+        "magicDefense": 10,
+        "speed": 18,
+        "agility": 18,
+        "luck": 30,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_rumor_monger",
+      "name": "Người Lan Truyền Tin Đồn",
+      "type": "NPC",
+      "role": "Cung cấp thông tin và tin đồn",
+      "region": "Vùng Đất Sắt Vụn",
+      "stats": {
+        "maxHp": 130,
+        "maxMp": 25,
+        "attack": 6,
+        "defense": 8,
+        "magic": 10,
+        "magicDefense": 10,
+        "speed": 20,
+        "agility": 25,
+        "luck": 55,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_lost_scavenger",
+      "name": "Kẻ Lang Thang Mất Tích",
+      "type": "NPC",
+      "role": "Cần được cứu hoặc giúp đỡ",
+      "region": "Vùng Đất Sắt Vụn",
+      "stats": {
+        "maxHp": 100,
+        "maxMp": 10,
+        "attack": 5,
+        "defense": 5,
+        "magic": 3,
+        "magicDefense": 5,
+        "speed": 10,
+        "agility": 10,
+        "luck": 15,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_engineer_assistant",
+      "name": "Trợ Lý Kỹ Sư",
+      "type": "NPC",
+      "role": "Hỗ trợ các công việc kỹ thuật",
+      "region": "Vùng Đất Sắt Vụn",
+      "stats": {
+        "maxHp": 160,
+        "maxMp": 60,
+        "attack": 10,
+        "defense": 15,
+        "magic": 20,
+        "magicDefense": 15,
+        "speed": 18,
+        "agility": 25,
+        "luck": 30,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_patrol_guard_1",
+      "name": "Lính Tuần Tra Lâm",
+      "type": "NPC",
+      "role": "Tuần tra khu vực",
+      "region": "Vùng Đất Sắt Vụn",
+      "stats": {
+        "maxHp": 220,
+        "maxMp": 50,
+        "attack": 35,
+        "defense": 25,
+        "magic": 10,
+        "magicDefense": 15,
+        "speed": 28,
+        "agility": 22,
+        "luck": 15,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_patrol_guard_2",
+      "name": "Lính Tuần Tra Sơn",
+      "type": "NPC",
+      "role": "Tuần tra khu vực",
+      "region": "Vùng Đất Sắt Vụn",
+      "stats": {
+        "maxHp": 220,
+        "maxMp": 50,
+        "attack": 35,
+        "defense": 25,
+        "magic": 10,
+        "magicDefense": 15,
+        "speed": 28,
+        "agility": 22,
+        "luck": 15,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_desperate_survivor",
+      "name": "Người Sống Sót Tuyệt Vọng",
+      "type": "NPC",
+      "role": "Cần sự giúp đỡ khẩn cấp",
+      "region": "Vùng Đất Sắt Vụn",
+      "stats": {
+        "maxHp": 90,
+        "maxMp": 5,
+        "attack": 3,
+        "defense": 4,
+        "magic": 2,
+        "magicDefense": 3,
+        "speed": 8,
+        "agility": 8,
+        "luck": 10,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_outpost_commander",
+      "name": "Chỉ Huy Tiền Đồn",
+      "type": "NPC",
+      "role": "Lãnh đạo tiền đồn quân sự, giao nhiệm vụ chiến đấu",
+      "region": "Đồng Bằng Câm Lặng",
+      "stats": {
+        "maxHp": 350,
+        "maxMp": 100,
+        "attack": 60,
+        "defense": 50,
+        "magic": 25,
+        "magicDefense": 30,
+        "speed": 30,
+        "agility": 25,
+        "luck": 25,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_archaeologist_head",
+      "name": "Trưởng Đoàn Khảo Cổ",
+      "type": "NPC",
+      "role": "Nhà khảo cổ học, tìm kiếm cổ vật",
+      "region": "Đồng Bằng Câm Lặng",
+      "stats": {
+        "maxHp": 200,
+        "maxMp": 70,
+        "attack": 10,
+        "defense": 15,
+        "magic": 25,
+        "magicDefense": 20,
+        "speed": 15,
+        "agility": 18,
+        "luck": 45,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_data_analyst",
+      "name": "Chuyên Gia Phân Tích Dữ Liệu",
+      "type": "NPC",
+      "role": "Giải mã dữ liệu quân sự cũ",
+      "region": "Đồng Bằng Câm Lặng",
+      "stats": {
+        "maxHp": 180,
+        "maxMp": 100,
+        "attack": 5,
+        "defense": 10,
+        "magic": 40,
+        "magicDefense": 30,
+        "speed": 12,
+        "agility": 25,
+        "luck": 40,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_desert_guide",
+      "name": "Hướng Dẫn Viên Sa Mạc",
+      "type": "NPC",
+      "role": "Dẫn đường qua sa mạc",
+      "region": "Đồng Bằng Câm Lặng",
+      "stats": {
+        "maxHp": 280,
+        "maxMp": 50,
+        "attack": 30,
+        "defense": 25,
+        "magic": 10,
+        "magicDefense": 15,
+        "speed": 40,
+        "agility": 35,
+        "luck": 35,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_settlement_leader",
+      "name": "Lãnh Đạo Khu Dân Cư",
+      "type": "NPC",
+      "role": "Lãnh đạo một làng nhỏ ở đồng bằng",
+      "region": "Đồng Bằng Câm Lặng",
+      "stats": {
+        "maxHp": 200,
+        "maxMp": 50,
+        "attack": 10,
+        "defense": 15,
+        "magic": 10,
+        "magicDefense": 10,
+        "speed": 15,
+        "agility": 15,
+        "luck": 40,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_veteran_scout",
+      "name": "Trinh Sát Lão Luyện",
+      "type": "NPC",
+      "role": "Trinh sát khu vực, cung cấp thông tin",
+      "region": "Đồng Bằng Câm Lặng",
+      "stats": {
+        "maxHp": 250,
+        "maxMp": 60,
+        "attack": 35,
+        "defense": 25,
+        "magic": 15,
+        "magicDefense": 20,
+        "speed": 38,
+        "agility": 40,
+        "luck": 30,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_military_quartermaster",
+      "name": "Quân Nhu Viên Quân Sự",
+      "type": "NPC",
+      "role": "Bán vũ khí và trang bị quân sự",
+      "region": "Đồng Bằng Câm Lặng",
+      "stats": {
+        "maxHp": 200,
+        "maxMp": 50,
+        "attack": 20,
+        "defense": 25,
+        "magic": 10,
+        "magicDefense": 15,
+        "speed": 20,
+        "agility": 20,
+        "luck": 45,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_ancient_tech_expert",
+      "name": "Chuyên Gia Công Nghệ Cổ Đại",
+      "type": "NPC",
+      "role": "Nghiên cứu công nghệ cũ",
+      "region": "Đồng Bằng Câm Lặng",
+      "stats": {
+        "maxHp": 190,
+        "maxMp": 110,
+        "attack": 8,
+        "defense": 12,
+        "magic": 45,
+        "magicDefense": 35,
+        "speed": 15,
+        "agility": 20,
+        "luck": 42,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_desert_trader",
+      "name": "Thương Gia Sa Mạc",
+      "type": "NPC",
+      "role": "Buôn bán hàng hóa quý hiếm",
+      "region": "Đồng Bằng Câm Lặng",
+      "stats": {
+        "maxHp": 180,
+        "maxMp": 40,
+        "attack": 10,
+        "defense": 15,
+        "magic": 5,
+        "magicDefense": 10,
+        "speed": 25,
+        "agility": 25,
+        "luck": 55,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_medic_chief",
+      "name": "Trưởng Y Sĩ",
+      "type": "NPC",
+      "role": "Điều hành trạm y tế",
+      "region": "Đồng Bằng Câm Lặng",
+      "stats": {
+        "maxHp": 220,
+        "maxMp": 120,
+        "attack": 10,
+        "defense": 15,
+        "magic": 50,
+        "magicDefense": 40,
+        "speed": 18,
+        "agility": 18,
+        "luck": 40,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_research_assistant_1",
+      "name": "Trợ Lý Nghiên Cứu Minh",
+      "type": "NPC",
+      "role": "Hỗ trợ khảo cổ và nghiên cứu",
+      "region": "Đồng Bằng Câm Lặng",
+      "stats": {
+        "maxHp": 150,
+        "maxMp": 70,
+        "attack": 8,
+        "defense": 10,
+        "magic": 20,
+        "magicDefense": 15,
+        "speed": 15,
+        "agility": 18,
+        "luck": 35,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_research_assistant_2",
+      "name": "Trợ Lý Nghiên Cứu Đức",
+      "type": "NPC",
+      "role": "Hỗ trợ khảo cổ và nghiên cứu",
+      "region": "Đồng Bằng Câm Lặng",
+      "stats": {
+        "maxHp": 150,
+        "maxMp": 70,
+        "attack": 8,
+        "defense": 10,
+        "magic": 20,
+        "magicDefense": 15,
+        "speed": 15,
+        "agility": 18,
+        "luck": 35,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_guard_captain_plain",
+      "name": "Đội Trưởng Lính Canh",
+      "type": "NPC",
+      "role": "Chỉ huy lực lượng bảo vệ",
+      "region": "Đồng Bằng Câm Lặng",
+      "stats": {
+        "maxHp": 300,
+        "maxMp": 80,
+        "attack": 50,
+        "defense": 40,
+        "magic": 20,
+        "magicDefense": 25,
+        "speed": 28,
+        "agility": 22,
+        "luck": 22,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_plain_farmer_1",
+      "name": "Nông Dân Đồng Bằng Hoa",
+      "type": "NPC",
+      "role": "Cung cấp thực phẩm",
+      "region": "Đồng Bằng Câm Lặng",
+      "stats": {
+        "maxHp": 150,
+        "maxMp": 30,
+        "attack": 8,
+        "defense": 10,
+        "magic": 5,
+        "magicDefense": 5,
+        "speed": 15,
+        "agility": 15,
+        "luck": 25,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_plain_farmer_2",
+      "name": "Nông Dân Đồng Bằng Nam",
+      "type": "NPC",
+      "role": "Cung cấp thực phẩm",
+      "region": "Đồng Bằng Câm Lặng",
+      "stats": {
+        "maxHp": 150,
+        "maxMp": 30,
+        "attack": 8,
+        "defense": 10,
+        "magic": 5,
+        "magicDefense": 5,
+        "speed": 15,
+        "agility": 15,
+        "luck": 25,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_water_merchant",
+      "name": "Người Buôn Nước",
+      "type": "NPC",
+      "role": "Bán và cung cấp nước sạch",
+      "region": "Đồng Bằng Câm Lặng",
+      "stats": {
+        "maxHp": 160,
+        "maxMp": 30,
+        "attack": 8,
+        "defense": 10,
+        "magic": 5,
+        "magicDefense": 5,
+        "speed": 20,
+        "agility": 20,
+        "luck": 35,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_old_soldier",
+      "name": "Cựu Binh Già",
+      "type": "NPC",
+      "role": "Kể chuyện về chiến tranh cũ",
+      "region": "Đồng Bằng Câm Lặng",
+      "stats": {
+        "maxHp": 200,
+        "maxMp": 40,
+        "attack": 15,
+        "defense": 20,
+        "magic": 5,
+        "magicDefense": 10,
+        "speed": 12,
+        "agility": 10,
+        "luck": 30,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_desert_hunter",
+      "name": "Thợ Săn Sa Mạc",
+      "type": "NPC",
+      "role": "Cung cấp nhiệm vụ săn bắn",
+      "region": "Đồng Bằng Câm Lặng",
+      "stats": {
+        "maxHp": 280,
+        "maxMp": 60,
+        "attack": 45,
+        "defense": 30,
+        "magic": 15,
+        "magicDefense": 20,
+        "speed": 35,
+        "agility": 30,
+        "luck": 30,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_rebel_informant",
+      "name": "Người Cung Cấp Tin Phe Nổi Dậy",
+      "type": "NPC",
+      "role": "Cung cấp thông tin về các phe phái",
+      "region": "Đồng Bằng Câm Lặng",
+      "stats": {
+        "maxHp": 140,
+        "maxMp": 25,
+        "attack": 6,
+        "defense": 8,
+        "magic": 10,
+        "magicDefense": 10,
+        "speed": 25,
+        "agility": 30,
+        "luck": 50,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_lost_scholar",
+      "name": "Học Giả Lạc Lối",
+      "type": "NPC",
+      "role": "Cần giúp đỡ để tìm lại tài liệu",
+      "region": "Đồng Bằng Câm Lặng",
+      "stats": {
+        "maxHp": 120,
+        "maxMp": 60,
+        "attack": 5,
+        "defense": 8,
+        "magic": 20,
+        "magicDefense": 15,
+        "speed": 10,
+        "agility": 12,
+        "luck": 20,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_faction_leader_iron",
+      "name": "Lãnh Đạo Phe Sắt",
+      "type": "NPC",
+      "role": "Lãnh đạo phe phái lớn, giao nhiệm vụ chính trị",
+      "region": "Rừng Thép Đổ Nát",
+      "stats": {
+        "maxHp": 450,
+        "maxMp": 150,
+        "attack": 80,
+        "defense": 70,
+        "magic": 30,
+        "magicDefense": 40,
+        "speed": 35,
+        "agility": 30,
+        "luck": 30,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_faction_leader_steel",
+      "name": "Lãnh Đạo Phe Thép",
+      "type": "NPC",
+      "role": "Lãnh đạo phe phái đối địch",
+      "region": "Rừng Thép Đổ Nát",
+      "stats": {
+        "maxHp": 450,
+        "maxMp": 150,
+        "attack": 80,
+        "defense": 70,
+        "magic": 30,
+        "magicDefense": 40,
+        "speed": 35,
+        "agility": 30,
+        "luck": 30,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_mercenary_guild_master",
+      "name": "Hội Trưởng Lính Đánh Thuê",
+      "type": "NPC",
+      "role": "Tuyển dụng và giao nhiệm vụ lính đánh thuê",
+      "region": "Rừng Thép Đổ Nát",
+      "stats": {
+        "maxHp": 380,
+        "maxMp": 120,
+        "attack": 70,
+        "defense": 60,
+        "magic": 20,
+        "magicDefense": 30,
+        "speed": 30,
+        "agility": 25,
+        "luck": 35,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_undercover_agent",
+      "name": "Đặc Vụ Ngầm",
+      "type": "NPC",
+      "role": "Cung cấp thông tin bí mật giữa các phe",
+      "region": "Rừng Thép Đổ Nát",
+      "stats": {
+        "maxHp": 280,
+        "maxMp": 100,
+        "attack": 50,
+        "defense": 40,
+        "magic": 35,
+        "magicDefense": 35,
+        "speed": 45,
+        "agility": 50,
+        "luck": 45,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_smuggler_king",
+      "name": "Vua Buôn Lậu",
+      "type": "NPC",
+      "role": "Bán hàng cấm và thông tin đen",
+      "region": "Rừng Thép Đổ Nát",
+      "stats": {
+        "maxHp": 250,
+        "maxMp": 80,
+        "attack": 20,
+        "defense": 25,
+        "magic": 15,
+        "magicDefense": 20,
+        "speed": 30,
+        "agility": 35,
+        "luck": 60,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_tech_engineer_chief",
+      "name": "Kỹ Sư Trưởng Công Nghiệp",
+      "type": "NPC",
+      "role": "Sửa chữa máy móc lớn, cung cấp nhiệm vụ",
+      "region": "Rừng Thép Đổ Nát",
+      "stats": {
+        "maxHp": 300,
+        "maxMp": 150,
+        "attack": 25,
+        "defense": 35,
+        "magic": 60,
+        "magicDefense": 50,
+        "speed": 20,
+        "agility": 30,
+        "luck": 35,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_factory_worker_1",
+      "name": "Công Nhân Nhà Máy Sơn",
+      "type": "NPC",
+      "role": "Làm việc trong các nhà máy còn hoạt động",
+      "region": "Rừng Thép Đổ Nát",
+      "stats": {
+        "maxHp": 180,
+        "maxMp": 40,
+        "attack": 15,
+        "defense": 20,
+        "magic": 5,
+        "magicDefense": 10,
+        "speed": 15,
+        "agility": 15,
+        "luck": 20,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_factory_worker_2",
+      "name": "Công Nhân Nhà Máy Hải",
+      "type": "NPC",
+      "role": "Làm việc trong các nhà máy còn hoạt động",
+      "region": "Rừng Thép Đổ Nát",
+      "stats": {
+        "maxHp": 180,
+        "maxMp": 40,
+        "attack": 15,
+        "defense": 20,
+        "magic": 5,
+        "magicDefense": 10,
+        "speed": 15,
+        "agility": 15,
+        "luck": 20,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_weapon_dealer_elite",
+      "name": "Người Bán Vũ Khí Cao Cấp",
+      "type": "NPC",
+      "role": "Bán vũ khí hiếm và mạnh",
+      "region": "Rừng Thép Đổ Nát",
+      "stats": {
+        "maxHp": 250,
+        "maxMp": 70,
+        "attack": 20,
+        "defense": 25,
+        "magic": 10,
+        "magicDefense": 15,
+        "speed": 25,
+        "agility": 25,
+        "luck": 50,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_information_broker",
+      "name": "Người Môi Giới Thông Tin",
+      "type": "NPC",
+      "role": "Mua bán thông tin",
+      "region": "Rừng Thép Đổ Nát",
+      "stats": {
+        "maxHp": 160,
+        "maxMp": 50,
+        "attack": 8,
+        "defense": 10,
+        "magic": 20,
+        "magicDefense": 15,
+        "speed": 28,
+        "agility": 35,
+        "luck": 65,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_hacker_master",
+      "name": "Bậc Thầy Hacking",
+      "type": "NPC",
+      "role": "Cung cấp dịch vụ hack hoặc nhiệm vụ liên quan",
+      "region": "Rừng Thép Đổ Nát",
+      "stats": {
+        "maxHp": 220,
+        "maxMp": 180,
+        "attack": 10,
+        "defense": 15,
+        "magic": 70,
+        "magicDefense": 50,
+        "speed": 25,
+        "agility": 40,
+        "luck": 40,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_security_chief_factory",
+      "name": "Trưởng Ban An Ninh Nhà Máy",
+      "type": "NPC",
+      "role": "Điều hành bảo vệ các cơ sở quan trọng",
+      "region": "Rừng Thép Đổ Nát",
+      "stats": {
+        "maxHp": 400,
+        "maxMp": 100,
+        "attack": 70,
+        "defense": 60,
+        "magic": 25,
+        "magicDefense": 35,
+        "speed": 30,
+        "agility": 28,
+        "luck": 28,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_political_advisor",
+      "name": "Cố Vấn Chính Trị",
+      "type": "NPC",
+      "role": "Tư vấn cho lãnh đạo phe phái",
+      "region": "Rừng Thép Đổ Nát",
+      "stats": {
+        "maxHp": 200,
+        "maxMp": 100,
+        "attack": 10,
+        "defense": 15,
+        "magic": 30,
+        "magicDefense": 25,
+        "speed": 15,
+        "agility": 20,
+        "luck": 50,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_black_market_dealer",
+      "name": "Người Buôn Chợ Đen",
+      "type": "NPC",
+      "role": "Bán đồ hiếm và bất hợp pháp",
+      "region": "Rừng Thép Đổ Nát",
+      "stats": {
+        "maxHp": 220,
+        "maxMp": 60,
+        "attack": 15,
+        "defense": 20,
+        "magic": 10,
+        "magicDefense": 15,
+        "speed": 28,
+        "agility": 30,
+        "luck": 58,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_refugee_camp_organizer",
+      "name": "Người Tổ Chức Trại Tị Nạn",
+      "type": "NPC",
+      "role": "Chăm sóc người tị nạn",
+      "region": "Rừng Thép Đổ Nát",
+      "stats": {
+        "maxHp": 200,
+        "maxMp": 70,
+        "attack": 10,
+        "defense": 15,
+        "magic": 20,
+        "magicDefense": 20,
+        "speed": 18,
+        "agility": 20,
+        "luck": 40,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_factory_foreman",
+      "name": "Quản Đốc Nhà Máy",
+      "type": "NPC",
+      "role": "Giám sát công việc trong nhà máy",
+      "region": "Rừng Thép Đổ Nát",
+      "stats": {
+        "maxHp": 280,
+        "maxMp": 80,
+        "attack": 20,
+        "defense": 25,
+        "magic": 30,
+        "magicDefense": 25,
+        "speed": 20,
+        "agility": 25,
+        "luck": 35,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_faction_guard_1",
+      "name": "Lính Canh Phe Sắt Lâm",
+      "type": "NPC",
+      "role": "Lính canh của phe Sắt",
+      "region": "Rừng Thép Đổ Nát",
+      "stats": {
+        "maxHp": 320,
+        "maxMp": 90,
+        "attack": 55,
+        "defense": 45,
+        "magic": 20,
+        "magicDefense": 25,
+        "speed": 30,
+        "agility": 25,
+        "luck": 20,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_faction_guard_2",
+      "name": "Lính Canh Phe Thép Tú",
+      "type": "NPC",
+      "role": "Lính canh của phe Thép",
+      "region": "Rừng Thép Đổ Nát",
+      "stats": {
+        "maxHp": 320,
+        "maxMp": 90,
+        "attack": 55,
+        "defense": 45,
+        "magic": 20,
+        "magicDefense": 25,
+        "speed": 30,
+        "agility": 25,
+        "luck": 20,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_underground_activist",
+      "name": "Nhà Hoạt Động Ngầm",
+      "type": "NPC",
+      "role": "Phản đối các phe phái",
+      "region": "Rừng Thép Đổ Nát",
+      "stats": {
+        "maxHp": 180,
+        "maxMp": 60,
+        "attack": 15,
+        "defense": 18,
+        "magic": 25,
+        "magicDefense": 20,
+        "speed": 30,
+        "agility": 35,
+        "luck": 45,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_data_courier",
+      "name": "Người Vận Chuyển Dữ Liệu",
+      "type": "NPC",
+      "role": "Vận chuyển thông tin quan trọng",
+      "region": "Rừng Thép Đổ Nát",
+      "stats": {
+        "maxHp": 200,
+        "maxMp": 80,
+        "attack": 10,
+        "defense": 15,
+        "magic": 20,
+        "magicDefense": 20,
+        "speed": 35,
+        "agility": 40,
+        "luck": 35,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_architect_scientist_defector",
+      "name": "Nhà Khoa Học Kiến Trúc Sư Đào Tẩu",
+      "type": "NPC",
+      "role": "Cung cấp thông tin nội bộ",
+      "region": "Thung Lũng Huyền Bí",
+      "stats": {
+        "maxHp": 250,
+        "maxMp": 150,
+        "attack": 15,
+        "defense": 20,
+        "magic": 60,
+        "magicDefense": 50,
+        "speed": 20,
+        "agility": 25,
+        "luck": 45,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_architect_engineer_brainwashed",
+      "name": "Kỹ Sư Kiến Trúc Sư Bị Tẩy Não",
+      "type": "NPC",
+      "role": "Làm việc dưới sự kiểm soát",
+      "region": "Thung Lũng Huyền Bí",
+      "stats": {
+        "maxHp": 300,
+        "maxMp": 100,
+        "attack": 20,
+        "defense": 30,
+        "magic": 50,
+        "magicDefense": 40,
+        "speed": 25,
+        "agility": 30,
+        "luck": 10,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_slave_leader",
+      "name": "Lãnh Đạo Nô Lệ",
+      "type": "NPC",
+      "role": "Người dẫn dắt cuộc nổi dậy nô lệ",
+      "region": "Thung Lũng Huyền Bí",
+      "stats": {
+        "maxHp": 350,
+        "maxMp": 80,
+        "attack": 50,
+        "defense": 40,
+        "magic": 20,
+        "magicDefense": 25,
+        "speed": 25,
+        "agility": 22,
+        "luck": 30,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_resistance_fighter_secret",
+      "name": "Chiến Binh Kháng Chiến Bí Mật",
+      "type": "NPC",
+      "role": "Đấu tranh ngầm chống The Architects",
+      "region": "Thung Lũng Huyền Bí",
+      "stats": {
+        "maxHp": 380,
+        "maxMp": 100,
+        "attack": 65,
+        "defense": 55,
+        "magic": 25,
+        "magicDefense": 30,
+        "speed": 35,
+        "agility": 30,
+        "luck": 25,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_data_core_custodian",
+      "name": "Người Giữ Lõi Dữ Liệu",
+      "type": "NPC",
+      "role": "Bảo vệ thông tin tuyệt mật",
+      "region": "Thung Lũng Huyền Bí",
+      "stats": {
+        "maxHp": 280,
+        "maxMp": 200,
+        "attack": 10,
+        "defense": 20,
+        "magic": 70,
+        "magicDefense": 60,
+        "speed": 18,
+        "agility": 25,
+        "luck": 50,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_genetic_experiment_observer",
+      "name": "Quan Sát Viên Thí Nghiệm Gen",
+      "type": "NPC",
+      "role": "Giám sát các thí nghiệm",
+      "region": "Thung Lũng Huyền Bí",
+      "stats": {
+        "maxHp": 200,
+        "maxMp": 120,
+        "attack": 5,
+        "defense": 15,
+        "magic": 40,
+        "magicDefense": 35,
+        "speed": 15,
+        "agility": 20,
+        "luck": 40,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_facility_technician_1",
+      "name": "Kỹ Thuật Viên Cơ Sở Anh",
+      "type": "NPC",
+      "role": "Bảo trì hệ thống",
+      "region": "Thung Lũng Huyền Bí",
+      "stats": {
+        "maxHp": 250,
+        "maxMp": 80,
+        "attack": 15,
+        "defense": 20,
+        "magic": 30,
+        "magicDefense": 25,
+        "speed": 20,
+        "agility": 25,
+        "luck": 25,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_facility_technician_2",
+      "name": "Kỹ Thuật Viên Cơ Sở Việt",
+      "type": "NPC",
+      "role": "Bảo trì hệ thống",
+      "region": "Thung Lũng Huyền Bí",
+      "stats": {
+        "maxHp": 250,
+        "maxMp": 80,
+        "attack": 15,
+        "defense": 20,
+        "magic": 30,
+        "magicDefense": 25,
+        "speed": 20,
+        "agility": 25,
+        "luck": 25,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_architect_spy_double",
+      "name": "Điệp Viên Kép Kiến Trúc Sư",
+      "type": "NPC",
+      "role": "Làm việc cho cả hai bên",
+      "region": "Thung Lũng Huyền Bí",
+      "stats": {
+        "maxHp": 300,
+        "maxMp": 150,
+        "attack": 40,
+        "defense": 35,
+        "magic": 45,
+        "magicDefense": 40,
+        "speed": 40,
+        "agility": 45,
+        "luck": 55,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_underground_healer",
+      "name": "Người Chữa Bệnh Hầm Ngầm",
+      "type": "NPC",
+      "role": "Chăm sóc những người bị thương",
+      "region": "Thung Lũng Huyền Bí",
+      "stats": {
+        "maxHp": 220,
+        "maxMp": 150,
+        "attack": 8,
+        "defense": 15,
+        "magic": 60,
+        "magicDefense": 50,
+        "speed": 18,
+        "agility": 20,
+        "luck": 38,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_architect_guard_off_duty",
+      "name": "Lính Canh Kiến Trúc Sư Nghỉ Ca",
+      "type": "NPC",
+      "role": "Có thể cung cấp thông tin",
+      "region": "Thung Lũng Huyền Bí",
+      "stats": {
+        "maxHp": 350,
+        "maxMp": 90,
+        "attack": 55,
+        "defense": 45,
+        "magic": 20,
+        "magicDefense": 25,
+        "speed": 28,
+        "agility": 22,
+        "luck": 20,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_hidden_informant",
+      "name": "Người Cung Cấp Thông Tin Ẩn",
+      "type": "NPC",
+      "role": "Cung cấp thông tin qua mạng lưới ngầm",
+      "region": "Thung Lũng Huyền Bí",
+      "stats": {
+        "maxHp": 150,
+        "maxMp": 50,
+        "attack": 6,
+        "defense": 10,
+        "magic": 20,
+        "magicDefense": 15,
+        "speed": 25,
+        "agility": 30,
+        "luck": 60,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_escaped_subject",
+      "name": "Đối Tượng Thí Nghiệm Trốn Thoát",
+      "type": "NPC",
+      "role": "Cần được bảo vệ hoặc giúp đỡ",
+      "region": "Thung Lũng Huyền Bí",
+      "stats": {
+        "maxHp": 180,
+        "maxMp": 50,
+        "attack": 10,
+        "defense": 10,
+        "magic": 10,
+        "magicDefense": 10,
+        "speed": 20,
+        "agility": 20,
+        "luck": 15,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_architect_researcher_junior",
+      "name": "Nghiên Cứu Viên Kiến Trúc Sư Trẻ",
+      "type": "NPC",
+      "role": "Có thể bị thuyết phục",
+      "region": "Thung Lũng Huyền Bí",
+      "stats": {
+        "maxHp": 180,
+        "maxMp": 100,
+        "attack": 5,
+        "defense": 10,
+        "magic": 35,
+        "magicDefense": 30,
+        "speed": 15,
+        "agility": 20,
+        "luck": 35,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_secret_arms_dealer",
+      "name": "Người Buôn Vũ Khí Bí Mật",
+      "type": "NPC",
+      "role": "Cung cấp vũ khí cho phe kháng chiến",
+      "region": "Thung Lũng Huyền Bí",
+      "stats": {
+        "maxHp": 250,
+        "maxMp": 80,
+        "attack": 25,
+        "defense": 30,
+        "magic": 15,
+        "magicDefense": 20,
+        "speed": 30,
+        "agility": 30,
+        "luck": 50,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_network_hacker_resistance",
+      "name": "Hacker Mạng Kháng Chiến",
+      "type": "NPC",
+      "role": "Phá hoại hệ thống của Architects",
+      "region": "Thung Lũng Huyền Bí",
+      "stats": {
+        "maxHp": 200,
+        "maxMp": 180,
+        "attack": 8,
+        "defense": 12,
+        "magic": 75,
+        "magicDefense": 55,
+        "speed": 28,
+        "agility": 42,
+        "luck": 45,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_drone_controller_rogue",
+      "name": "Người Điều Khiển Drone Nổi Loạn",
+      "type": "NPC",
+      "role": "Điều khiển drone hỗ trợ",
+      "region": "Thung Lũng Huyền Bí",
+      "stats": {
+        "maxHp": 260,
+        "maxMp": 120,
+        "attack": 30,
+        "defense": 25,
+        "magic": 40,
+        "magicDefense": 35,
+        "speed": 35,
+        "agility": 38,
+        "luck": 35,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_architect_civilian_forced",
+      "name": "Dân Thường Kiến Trúc Sư Bị Ép Buộc",
+      "type": "NPC",
+      "role": "Sống dưới sự cai trị của Architects",
+      "region": "Thung Lũng Huyền Bí",
+      "stats": {
+        "maxHp": 150,
+        "maxMp": 30,
+        "attack": 5,
+        "defense": 8,
+        "magic": 5,
+        "magicDefense": 5,
+        "speed": 15,
+        "agility": 15,
+        "luck": 10,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_ancient_ruin_explorer",
+      "name": "Người Thám Hiểm Di Tích Cổ",
+      "type": "NPC",
+      "role": "Tìm kiếm di vật trong thung lũng",
+      "region": "Thung Lũng Huyền Bí",
+      "stats": {
+        "maxHp": 280,
+        "maxMp": 60,
+        "attack": 30,
+        "defense": 25,
+        "magic": 15,
+        "magicDefense": 20,
+        "speed": 35,
+        "agility": 30,
+        "luck": 40,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_nature_protector",
+      "name": "Người Bảo Vệ Tự Nhiên",
+      "type": "NPC",
+      "role": "Cố gắng bảo vệ thung lũng khỏi Architects",
+      "region": "Thung Lũng Huyền Bí",
+      "stats": {
+        "maxHp": 320,
+        "maxMp": 100,
+        "attack": 50,
+        "defense": 45,
+        "magic": 25,
+        "magicDefense": 30,
+        "speed": 30,
+        "agility": 28,
+        "luck": 30,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_alliance_general",
+      "name": "Tổng Tư Lệnh Liên Minh",
+      "type": "NPC",
+      "role": "Lãnh đạo quân đội đồng minh",
+      "region": "Vùng Đất Hứa Cuối Cùng",
+      "stats": {
+        "maxHp": 500,
+        "maxMp": 200,
+        "attack": 90,
+        "defense": 80,
+        "magic": 40,
+        "magicDefense": 50,
+        "speed": 40,
+        "agility": 35,
+        "luck": 40,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_wise_elder",
+      "name": "Trưởng Lão Thông Thái",
+      "type": "NPC",
+      "role": "Cố vấn tinh thần",
+      "region": "Vùng Đất Hứa Cuối Cùng",
+      "stats": {
+        "maxHp": 250,
+        "maxMp": 180,
+        "attack": 10,
+        "defense": 20,
+        "magic": 60,
+        "magicDefense": 60,
+        "speed": 15,
+        "agility": 15,
+        "luck": 55,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_future_visionary",
+      "name": "Người Dẫn Dắt Tương Lai",
+      "type": "NPC",
+      "role": "Kêu gọi xây dựng thế giới mới",
+      "region": "Vùng Đất Hứa Cuối Cùng",
+      "stats": {
+        "maxHp": 300,
+        "maxMp": 150,
+        "attack": 20,
+        "defense": 25,
+        "magic": 40,
+        "magicDefense": 35,
+        "speed": 25,
+        "agility": 28,
+        "luck": 60,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_master_strategist",
+      "name": "Bậc Thầy Chiến Lược",
+      "type": "NPC",
+      "role": "Đưa ra kế hoạch cho trận chiến cuối cùng",
+      "region": "Vùng Đất Hứa Cuối Cùng",
+      "stats": {
+        "maxHp": 350,
+        "maxMp": 180,
+        "attack": 30,
+        "defense": 30,
+        "magic": 50,
+        "magicDefense": 45,
+        "speed": 20,
+        "agility": 25,
+        "luck": 50,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_lead_engineer_reconstruction",
+      "name": "Kỹ Sư Trưởng Tái Thiết",
+      "type": "NPC",
+      "role": "Dẫn đầu công cuộc tái thiết",
+      "region": "Vùng Đất Hứa Cuối Cùng",
+      "stats": {
+        "maxHp": 300,
+        "maxMp": 150,
+        "attack": 25,
+        "defense": 35,
+        "magic": 60,
+        "magicDefense": 50,
+        "speed": 20,
+        "agility": 30,
+        "luck": 35,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_medical_coordinator",
+      "name": "Điều Phối Viên Y Tế",
+      "type": "NPC",
+      "role": "Tổ chức chăm sóc y tế cho quân đội",
+      "region": "Vùng Đất Hứa Cuối Cùng",
+      "stats": {
+        "maxHp": 280,
+        "maxMp": 180,
+        "attack": 10,
+        "defense": 15,
+        "magic": 70,
+        "magicDefense": 60,
+        "speed": 20,
+        "agility": 20,
+        "luck": 45,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_logistics_expert",
+      "name": "Chuyên Gia Hậu Cần",
+      "type": "NPC",
+      "role": "Đảm bảo nguồn cung cấp",
+      "region": "Vùng Đất Hứa Cuối Cùng",
+      "stats": {
+        "maxHp": 280,
+        "maxMp": 80,
+        "attack": 15,
+        "defense": 20,
+        "magic": 20,
+        "magicDefense": 20,
+        "speed": 30,
+        "agility": 35,
+        "luck": 45,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_propaganda_speaker",
+      "name": "Phát Ngôn Viên Tuyên Truyền",
+      "type": "NPC",
+      "role": "Thúc đẩy tinh thần chiến đấu",
+      "region": "Vùng Đất Hứa Cuối Cùng",
+      "stats": {
+        "maxHp": 200,
+        "maxMp": 100,
+        "attack": 5,
+        "defense": 10,
+        "magic": 30,
+        "magicDefense": 25,
+        "speed": 20,
+        "agility": 25,
+        "luck": 55,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_diplomat_peace",
+      "name": "Nhà Ngoại Giao Hòa Bình",
+      "type": "NPC",
+      "role": "Tìm kiếm giải pháp hòa bình sau chiến tranh",
+      "region": "Vùng Đất Hứa Cuối Cùng",
+      "stats": {
+        "maxHp": 250,
+        "maxMp": 120,
+        "attack": 8,
+        "defense": 12,
+        "magic": 35,
+        "magicDefense": 30,
+        "speed": 20,
+        "agility": 25,
+        "luck": 65,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_training_officer",
+      "name": "Sĩ Quan Huấn Luyện",
+      "type": "NPC",
+      "role": "Huấn luyện quân đội",
+      "region": "Vùng Đất Hứa Cuối Cùng",
+      "stats": {
+        "maxHp": 380,
+        "maxMp": 100,
+        "attack": 60,
+        "defense": 50,
+        "magic": 20,
+        "magicDefense": 25,
+        "speed": 30,
+        "agility": 28,
+        "luck": 30,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_veteran_commander",
+      "name": "Chỉ Huy Lão Luyện",
+      "type": "NPC",
+      "role": "Chỉ huy các đơn vị chiến đấu",
+      "region": "Vùng Đất Hứa Cuối Cùng",
+      "stats": {
+        "maxHp": 420,
+        "maxMp": 120,
+        "attack": 75,
+        "defense": 65,
+        "magic": 25,
+        "magicDefense": 30,
+        "speed": 35,
+        "agility": 30,
+        "luck": 35,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_spiritual_guide",
+      "name": "Người Dẫn Dắt Tâm Linh",
+      "type": "NPC",
+      "role": "Duy trì hy vọng và đức tin",
+      "region": "Vùng Đất Hứa Cuối Cùng",
+      "stats": {
+        "maxHp": 250,
+        "maxMp": 200,
+        "attack": 10,
+        "defense": 15,
+        "magic": 70,
+        "magicDefense": 65,
+        "speed": 18,
+        "agility": 18,
+        "luck": 50,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_communication_specialist",
+      "name": "Chuyên Gia Truyền Thông",
+      "type": "NPC",
+      "role": "Duy trì liên lạc",
+      "region": "Vùng Đất Hứa Cuối Cùng",
+      "stats": {
+        "maxHp": 200,
+        "maxMp": 120,
+        "attack": 5,
+        "defense": 10,
+        "magic": 40,
+        "magicDefense": 35,
+        "speed": 25,
+        "agility": 30,
+        "luck": 48,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_resource_manager",
+      "name": "Quản Lý Tài Nguyên",
+      "type": "NPC",
+      "role": "Phân bổ tài nguyên hợp lý",
+      "region": "Vùng Đất Hứa Cuối Cùng",
+      "stats": {
+        "maxHp": 280,
+        "maxMp": 100,
+        "attack": 15,
+        "defense": 20,
+        "magic": 25,
+        "magicDefense": 20,
+        "speed": 25,
+        "agility": 30,
+        "luck": 40,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_researcher_post_war",
+      "name": "Nhà Nghiên Cứu Hậu Chiến",
+      "type": "NPC",
+      "role": "Nghiên cứu cách khôi phục thế giới",
+      "region": "Vùng Đất Hứa Cuối Cùng",
+      "stats": {
+        "maxHp": 220,
+        "maxMp": 150,
+        "attack": 8,
+        "defense": 12,
+        "magic": 50,
+        "magicDefense": 45,
+        "speed": 18,
+        "agility": 20,
+        "luck": 45,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_civilian_representative",
+      "name": "Đại Diện Dân Sự",
+      "type": "NPC",
+      "role": "Lắng nghe ý kiến của dân thường",
+      "region": "Vùng Đất Hứa Cuối Cùng",
+      "stats": {
+        "maxHp": 200,
+        "maxMp": 80,
+        "attack": 5,
+        "defense": 10,
+        "magic": 20,
+        "magicDefense": 15,
+        "speed": 18,
+        "agility": 20,
+        "luck": 50,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_architect_defector_ally",
+      "name": "Kẻ Đào Tẩu Kiến Trúc Sư Đồng Minh",
+      "type": "NPC",
+      "role": "Hỗ trợ phe đồng minh",
+      "region": "Vùng Đất Hứa Cuối Cùng",
+      "stats": {
+        "maxHp": 320,
+        "maxMp": 180,
+        "attack": 45,
+        "defense": 40,
+        "magic": 55,
+        "magicDefense": 50,
+        "speed": 35,
+        "agility": 40,
+        "luck": 40,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_rebel_leader_united",
+      "name": "Lãnh Đạo Nổi Dậy Thống Nhất",
+      "type": "NPC",
+      "role": "Chỉ huy các lực lượng nổi dậy",
+      "region": "Vùng Đất Hứa Cuối Cùng",
+      "stats": {
+        "maxHp": 480,
+        "maxMp": 180,
+        "attack": 85,
+        "defense": 75,
+        "magic": 35,
+        "magicDefense": 45,
+        "speed": 38,
+        "agility": 32,
+        "luck": 38,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_historian_recorder",
+      "name": "Nhà Sử Học Ghi Chép",
+      "type": "NPC",
+      "role": "Ghi lại sự kiện của cuộc chiến",
+      "region": "Vùng Đất Hứa Cuối Cùng",
+      "stats": {
+        "maxHp": 180,
+        "maxMp": 90,
+        "attack": 5,
+        "defense": 10,
+        "magic": 30,
+        "magicDefense": 25,
+        "speed": 15,
+        "agility": 15,
+        "luck": 50,
+        "exp": 0
+      }
+    },
+    {
+      "id": "npc_child_of_new_era",
+      "name": "Đứa Trẻ Kỷ Nguyên Mới",
+      "type": "NPC",
+      "role": "Biểu tượng của hy vọng tương lai",
+      "region": "Vùng Đất Hứa Cuối Cùng",
+      "stats": {
+        "maxHp": 100,
+        "maxMp": 10,
+        "attack": 2,
+        "defense": 3,
+        "magic": 0,
+        "magicDefense": 2,
+        "speed": 12,
+        "agility": 12,
+        "luck": 70,
+        "exp": 0
+      }
+    },
+    {
+      "id": "boss_metal_overlord",
+      "name": "Kẻ Độc Tài Kim Loại",
+      "type": "Enemy",
+      "role": "Boss, Robot khổng lồ từ phế liệu",
+      "region": "Vùng Đất Sắt Vụn",
+      "stats": {
+        "maxHp": 1500,
+        "maxMp": 300,
+        "attack": 150,
+        "defense": 120,
+        "magic": 80,
+        "magicDefense": 70,
+        "speed": 25,
+        "agility": 18,
+        "luck": 25,
+        "exp": 800
+      }
+    },
+    {
+      "id": "enemy_scrap_robot_basic",
+      "name": "Robot Sắt Vụn Cơ Bản",
+      "type": "Enemy",
+      "role": "Quái thường, Robot nhỏ được lắp ráp từ phế liệu",
+      "region": "Vùng Đất Sắt Vụn",
+      "stats": {
+        "maxHp": 100,
+        "maxMp": 50,
+        "attack": 20,
+        "defense": 15,
+        "magic": 10,
+        "magicDefense": 10,
+        "speed": 15,
+        "agility": 12,
+        "luck": 8,
+        "exp": 20
+      }
+    },
+    {
+      "id": "enemy_mutated_junkyard_dog",
+      "name": "Chó Hoang Đột Biến",
+      "type": "Enemy",
+      "role": "Quái thường, Chó hoang hung hãn",
+      "region": "Vùng Đất Sắt Vụn",
+      "stats": {
+        "maxHp": 90,
+        "maxMp": 0,
+        "attack": 25,
+        "defense": 10,
+        "magic": 0,
+        "magicDefense": 5,
+        "speed": 20,
+        "agility": 18,
+        "luck": 10,
+        "exp": 18
+      }
+    },
+    {
+      "id": "enemy_raider_scavenger",
+      "name": "Kẻ Cướp Phế Liệu",
+      "type": "Enemy",
+      "role": "Quái thường, Cướp đường",
+      "region": "Vùng Đất Sắt Vụn",
+      "stats": {
+        "maxHp": 120,
+        "maxMp": 10,
+        "attack": 30,
+        "defense": 18,
+        "magic": 5,
+        "magicDefense": 8,
+        "speed": 18,
+        "agility": 15,
+        "luck": 12,
+        "exp": 25
+      }
+    },
+    {
+      "id": "enemy_giant_cockroach",
+      "name": "Gián Khổng Lồ Đột Biến",
+      "type": "Enemy",
+      "role": "Quái thường, Côn trùng to lớn",
+      "region": "Vùng Đất Sắt Vụn",
+      "stats": {
+        "maxHp": 80,
+        "maxMp": 0,
+        "attack": 18,
+        "defense": 8,
+        "magic": 0,
+        "magicDefense": 5,
+        "speed": 12,
+        "agility": 15,
+        "luck": 7,
+        "exp": 15
+      }
+    },
+    {
+      "id": "enemy_scrap_drone",
+      "name": "Drone Phế Liệu",
+      "type": "Enemy",
+      "role": "Quái thường, Drone bay nhỏ",
+      "region": "Vùng Đất Sắt Vụn",
+      "stats": {
+        "maxHp": 70,
+        "maxMp": 40,
+        "attack": 15,
+        "defense": 10,
+        "magic": 15,
+        "magicDefense": 12,
+        "speed": 22,
+        "agility": 20,
+        "luck": 10,
+        "exp": 17
+      }
+    },
+    {
+      "id": "enemy_rust_ghoul",
+      "name": "Ma Gỉ Sét",
+      "type": "Enemy",
+      "role": "Quái thường, Sinh vật bị gỉ sét ăn mòn",
+      "region": "Vùng Đất Sắt Vụn",
+      "stats": {
+        "maxHp": 110,
+        "maxMp": 60,
+        "attack": 22,
+        "defense": 10,
+        "magic": 18,
+        "magicDefense": 15,
+        "speed": 15,
+        "agility": 15,
+        "luck": 8,
+        "exp": 22
+      }
+    },
+    {
+      "id": "enemy_mechanized_spider",
+      "name": "Nhện Cơ Giới",
+      "type": "Enemy",
+      "role": "Quái thường, Robot nhện",
+      "region": "Vùng Đất Sắt Vụn",
+      "stats": {
+        "maxHp": 95,
+        "maxMp": 45,
+        "attack": 20,
+        "defense": 13,
+        "magic": 12,
+        "magicDefense": 10,
+        "speed": 17,
+        "agility": 16,
+        "luck": 9,
+        "exp": 19
+      }
+    },
+    {
+      "id": "enemy_gang_thug",
+      "name": "Thành Viên Băng Đảng",
+      "type": "Enemy",
+      "role": "Quái thường, Kẻ côn đồ",
+      "region": "Vùng Đất Sắt Vụn",
+      "stats": {
+        "maxHp": 130,
+        "maxMp": 15,
+        "attack": 32,
+        "defense": 20,
+        "magic": 6,
+        "magicDefense": 10,
+        "speed": 17,
+        "agility": 14,
+        "luck": 11,
+        "exp": 28
+      }
+    },
+    {
+      "id": "enemy_broken_turret",
+      "name": "Trụ Súng Hỏng",
+      "type": "Enemy",
+      "role": "Quái thường, Tháp pháo cũ tự động bắn",
+      "region": "Vùng Đất Sắt Vụn",
+      "stats": {
+        "maxHp": 150,
+        "maxMp": 0,
+        "attack": 35,
+        "defense": 25,
+        "magic": 0,
+        "magicDefense": 15,
+        "speed": 0,
+        "agility": 0,
+        "luck": 5,
+        "exp": 30
+      }
+    },
+    {
+      "id": "enemy_mutated_rat",
+      "name": "Chuột Đột Biến",
+      "type": "Enemy",
+      "role": "Quái thường, Chuột lớn và hung dữ",
+      "region": "Vùng Đất Sắt Vụn",
+      "stats": {
+        "maxHp": 70,
+        "maxMp": 0,
+        "attack": 15,
+        "defense": 8,
+        "magic": 0,
+        "magicDefense": 5,
+        "speed": 18,
+        "agility": 20,
+        "luck": 10,
+        "exp": 12
+      }
+    },
+    {
+      "id": "enemy_scrap_golem",
+      "name": "Người Khổng Lồ Phế Liệu",
+      "type": "Enemy",
+      "role": "Quái thường, Sinh vật lớn bằng phế liệu",
+      "region": "Vùng Đất Sắt Vụn",
+      "stats": {
+        "maxHp": 180,
+        "maxMp": 0,
+        "attack": 40,
+        "defense": 30,
+        "magic": 0,
+        "magicDefense": 15,
+        "speed": 10,
+        "agility": 8,
+        "luck": 7,
+        "exp": 35
+      }
+    },
+    {
+      "id": "enemy_corrupted_worker_bot",
+      "name": "Robot Công Nhân Hỏng",
+      "type": "Enemy",
+      "role": "Quái thường, Robot công nhân trở nên hung hãn",
+      "region": "Vùng Đất Sắt Vụn",
+      "stats": {
+        "maxHp": 110,
+        "maxMp": 30,
+        "attack": 25,
+        "defense": 18,
+        "magic": 8,
+        "magicDefense": 10,
+        "speed": 12,
+        "agility": 10,
+        "luck": 9,
+        "exp": 23
+      }
+    },
+    {
+      "id": "enemy_acid_slug",
+      "name": "Sên Axit",
+      "type": "Enemy",
+      "role": "Quái thường, Sên lớn nhả axit",
+      "region": "Vùng Đất Sắt Vụn",
+      "stats": {
+        "maxHp": 100,
+        "maxMp": 60,
+        "attack": 18,
+        "defense": 12,
+        "magic": 20,
+        "magicDefense": 18,
+        "speed": 5,
+        "agility": 5,
+        "luck": 6,
+        "exp": 20
+      }
+    },
+    {
+      "id": "enemy_raider_marksman",
+      "name": "Xạ Thủ Kẻ Cướp",
+      "type": "Enemy",
+      "role": "Quái thường, Kẻ cướp với súng tầm xa",
+      "region": "Vùng Đất Sắt Vụn",
+      "stats": {
+        "maxHp": 110,
+        "maxMp": 10,
+        "attack": 35,
+        "defense": 15,
+        "magic": 5,
+        "magicDefense": 8,
+        "speed": 20,
+        "agility": 18,
+        "luck": 13,
+        "exp": 27
+      }
+    },
+    {
+      "id": "enemy_exploding_barrel_bot",
+      "name": "Robot Thùng Nổ",
+      "type": "Enemy",
+      "role": "Quái thường, Robot chứa chất nổ",
+      "region": "Vùng Đất Sắt Vụn",
+      "stats": {
+        "maxHp": 60,
+        "maxMp": 0,
+        "attack": 50,
+        "defense": 5,
+        "magic": 0,
+        "magicDefense": 5,
+        "speed": 10,
+        "agility": 8,
+        "luck": 5,
+        "exp": 15
+      }
+    },
+    {
+      "id": "enemy_swarm_beetle",
+      "name": "Bọ Cánh Cứng Bầy Đàn",
+      "type": "Enemy",
+      "role": "Quái thường, Bọ cánh cứng tấn công theo đàn",
+      "region": "Vùng Đất Sắt Vụn",
+      "stats": {
+        "maxHp": 50,
+        "maxMp": 0,
+        "attack": 12,
+        "defense": 10,
+        "magic": 0,
+        "magicDefense": 5,
+        "speed": 15,
+        "agility": 15,
+        "luck": 7,
+        "exp": 10
+      }
+    },
+    {
+      "id": "enemy_junk_crawler",
+      "name": "Sinh Vật Bò Phế Liệu",
+      "type": "Enemy",
+      "role": "Quái thường, Sinh vật bò dưới đống phế liệu",
+      "region": "Vùng Đất Sắt Vụn",
+      "stats": {
+        "maxHp": 90,
+        "maxMp": 0,
+        "attack": 20,
+        "defense": 12,
+        "magic": 0,
+        "magicDefense": 8,
+        "speed": 10,
+        "agility": 12,
+        "luck": 8,
+        "exp": 16
+      }
+    },
+    {
+      "id": "enemy_mad_scavenger",
+      "name": "Kẻ Tìm Kiếm Điên Loạn",
+      "type": "Enemy",
+      "role": "Quái thường, Người sống sót mất trí",
+      "region": "Vùng Đất Sắt Vụn",
+      "stats": {
+        "maxHp": 100,
+        "maxMp": 5,
+        "attack": 28,
+        "defense": 10,
+        "magic": 0,
+        "magicDefense": 5,
+        "speed": 18,
+        "agility": 15,
+        "luck": 9,
+        "exp": 20
+      }
+    },
+    {
+      "id": "enemy_scrap_knight",
+      "name": "Hiệp Sĩ Phế Liệu",
+      "type": "Enemy",
+      "role": "Quái thường, Kẻ cướp mặc giáp phế liệu",
+      "region": "Vùng Đất Sắt Vụn",
+      "stats": {
+        "maxHp": 140,
+        "maxMp": 10,
+        "attack": 35,
+        "defense": 25,
+        "magic": 5,
+        "magicDefense": 12,
+        "speed": 15,
+        "agility": 12,
+        "luck": 10,
+        "exp": 30
+      }
+    },
+    {
+      "id": "boss_ancient_guardian",
+      "name": "Thần Hộ Mệnh Cổ Đại",
+      "type": "Enemy",
+      "role": "Boss, Robot quân sự khổng lồ từ quá khứ",
+      "region": "Đồng Bằng Câm Lặng",
+      "stats": {
+        "maxHp": 3000,
+        "maxMp": 500,
+        "attack": 300,
+        "defense": 200,
+        "magic": 150,
+        "magicDefense": 120,
+        "speed": 35,
+        "agility": 28,
+        "luck": 35,
+        "exp": 1500
+      }
+    },
+    {
+      "id": "enemy_broken_military_bot",
+      "name": "Robot Quân Sự Hỏng Hóc",
+      "type": "Enemy",
+      "role": "Quái thường, Robot lính cũ",
+      "region": "Đồng Bằng Câm Lặng",
+      "stats": {
+        "maxHp": 200,
+        "maxMp": 80,
+        "attack": 45,
+        "defense": 30,
+        "magic": 25,
+        "magicDefense": 20,
+        "speed": 25,
+        "agility": 20,
+        "luck": 15,
+        "exp": 40
+      }
+    },
+    {
+      "id": "enemy_mutated_scorpion",
+      "name": "Bò Cạp Đột Biến",
+      "type": "Enemy",
+      "role": "Quái thường, Bò cạp khổng lồ",
+      "region": "Đồng Bằng Câm Lặng",
+      "stats": {
+        "maxHp": 180,
+        "maxMp": 0,
+        "attack": 50,
+        "defense": 25,
+        "magic": 0,
+        "magicDefense": 15,
+        "speed": 30,
+        "agility": 28,
+        "luck": 18,
+        "exp": 38
+      }
+    },
+    {
+      "id": "enemy_desert_ghoul",
+      "name": "Ma Sa Mạc",
+      "type": "Enemy",
+      "role": "Quái thường, Dị nhân sống sót trên sa mạc",
+      "region": "Đồng Bằng Câm Lặng",
+      "stats": {
+        "maxHp": 220,
+        "maxMp": 100,
+        "attack": 40,
+        "defense": 20,
+        "magic": 35,
+        "magicDefense": 30,
+        "speed": 28,
+        "agility": 25,
+        "luck": 20,
+        "exp": 45
+      }
+    },
+    {
+      "id": "enemy_sand_crawler",
+      "name": "Sinh Vật Bò Cát",
+      "type": "Enemy",
+      "role": "Quái thường, Sinh vật ẩn mình dưới cát",
+      "region": "Đồng Bằng Câm Lặng",
+      "stats": {
+        "maxHp": 150,
+        "maxMp": 0,
+        "attack": 35,
+        "defense": 20,
+        "magic": 0,
+        "magicDefense": 10,
+        "speed": 20,
+        "agility": 22,
+        "luck": 15,
+        "exp": 35
+      }
+    },
+    {
+      "id": "enemy_renegade_soldier",
+      "name": "Lính Đánh Thuê Nổi Loạn",
+      "type": "Enemy",
+      "role": "Quái thường, Lính cũ đã bỏ rơi phe phái",
+      "region": "Đồng Bằng Câm Lặng",
+      "stats": {
+        "maxHp": 250,
+        "maxMp": 20,
+        "attack": 55,
+        "defense": 35,
+        "magic": 10,
+        "magicDefense": 15,
+        "speed": 28,
+        "agility": 22,
+        "luck": 20,
+        "exp": 50
+      }
+    },
+    {
+      "id": "enemy_old_patrol_drone",
+      "name": "Drone Tuần Tra Cũ",
+      "type": "Enemy",
+      "role": "Quái thường, Drone quân sự cũ",
+      "region": "Đồng Bằng Câm Lặng",
+      "stats": {
+        "maxHp": 120,
+        "maxMp": 60,
+        "attack": 30,
+        "defense": 20,
+        "magic": 25,
+        "magicDefense": 20,
+        "speed": 35,
+        "agility": 30,
+        "luck": 18,
+        "exp": 32
+      }
+    },
+    {
+      "id": "enemy_desert_viper_mutant",
+      "name": "Rắn Lục Sa Mạc Đột Biến",
+      "type": "Enemy",
+      "role": "Quái thường, Rắn độc khổng lồ",
+      "region": "Đồng Bằng Câm Lặng",
+      "stats": {
+        "maxHp": 170,
+        "maxMp": 0,
+        "attack": 40,
+        "defense": 22,
+        "magic": 0,
+        "magicDefense": 12,
+        "speed": 25,
+        "agility": 30,
+        "luck": 16,
+        "exp": 36
+      }
+    },
+    {
+      "id": "enemy_faction_recruit_plain",
+      "name": "Lính Tuyển Mới Phe Phái",
+      "type": "Enemy",
+      "role": "Quái thường, Lính mới gia nhập phe phái",
+      "region": "Đồng Bằng Câm Lặng",
+      "stats": {
+        "maxHp": 230,
+        "maxMp": 15,
+        "attack": 48,
+        "defense": 30,
+        "magic": 8,
+        "magicDefense": 12,
+        "speed": 25,
+        "agility": 20,
+        "luck": 18,
+        "exp": 42
+      }
+    },
+    {
+      "id": "enemy_energy_mine",
+      "name": "Mìn Năng Lượng Cũ",
+      "type": "Enemy",
+      "role": "Quái thường, Mìn tự động từ chiến tranh cũ",
+      "region": "Đồng Bằng Câm Lặng",
+      "stats": {
+        "maxHp": 100,
+        "maxMp": 0,
+        "attack": 70,
+        "defense": 10,
+        "magic": 0,
+        "magicDefense": 20,
+        "speed": 0,
+        "agility": 0,
+        "luck": 10,
+        "exp": 28
+      }
+    },
+    {
+      "id": "enemy_flying_mutant_bug",
+      "name": "Côn Trùng Bay Đột Biến",
+      "type": "Enemy",
+      "role": "Quái thường, Côn trùng bay lớn",
+      "region": "Đồng Bằng Câm Lặng",
+      "stats": {
+        "maxHp": 110,
+        "maxMp": 0,
+        "attack": 30,
+        "defense": 15,
+        "magic": 0,
+        "magicDefense": 8,
+        "speed": 30,
+        "agility": 35,
+        "luck": 15,
+        "exp": 30
+      }
+    },
+    {
+      "id": "enemy_camouflaged_assassin",
+      "name": "Sát Thủ Ngụy Trang",
+      "type": "Enemy",
+      "role": "Quái thường, Kẻ địch ẩn nấp chờ phục kích",
+      "region": "Đồng Bằng Câm Lặng",
+      "stats": {
+        "maxHp": 190,
+        "maxMp": 50,
+        "attack": 60,
+        "defense": 28,
+        "magic": 15,
+        "magicDefense": 18,
+        "speed": 32,
+        "agility": 40,
+        "luck": 22,
+        "exp": 48
+      }
+    },
+    {
+      "id": "enemy_desert_wolf_pack",
+      "name": "Sói Sa Mạc Đột Biến",
+      "type": "Enemy",
+      "role": "Quái thường, Sói tấn công theo đàn",
+      "region": "Đồng Bằng Câm Lặng",
+      "stats": {
+        "maxHp": 160,
+        "maxMp": 0,
+        "attack": 42,
+        "defense": 20,
+        "magic": 0,
+        "magicDefense": 10,
+        "speed": 30,
+        "agility": 28,
+        "luck": 17,
+        "exp": 34
+      }
+    },
+    {
+      "id": "enemy_sentinel_robot_plain",
+      "name": "Robot Canh Gác Đồng Bằng",
+      "type": "Enemy",
+      "role": "Quái thường, Robot tuần tra cố định",
+      "region": "Đồng Bằng Câm Lặng",
+      "stats": {
+        "maxHp": 260,
+        "maxMp": 70,
+        "attack": 50,
+        "defense": 40,
+        "magic": 20,
+        "magicDefense": 25,
+        "speed": 20,
+        "agility": 18,
+        "luck": 15,
+        "exp": 55
+      }
+    },
+    {
+      "id": "enemy_chemical_spitter",
+      "name": "Sinh Vật Phun Hóa Chất",
+      "type": "Enemy",
+      "role": "Quái thường, Sinh vật nhả chất độc",
+      "region": "Đồng Bằng Câm Lặng",
+      "stats": {
+        "maxHp": 180,
+        "maxMp": 80,
+        "attack": 35,
+        "defense": 25,
+        "magic": 40,
+        "magicDefense": 35,
+        "speed": 15,
+        "agility": 12,
+        "luck": 10,
+        "exp": 40
+      }
+    },
+    {
+      "id": "enemy_tribal_warrior_plain",
+      "name": "Chiến Binh Bộ Lạc Đồng Bằng",
+      "type": "Enemy",
+      "role": "Quái thường, Người bản địa hung hãn",
+      "region": "Đồng Bằng Câm Lặng",
+      "stats": {
+        "maxHp": 240,
+        "maxMp": 10,
+        "attack": 52,
+        "defense": 32,
+        "magic": 5,
+        "magicDefense": 10,
+        "speed": 25,
+        "agility": 20,
+        "luck": 18,
+        "exp": 46
+      }
+    },
+    {
+      "id": "enemy_armored_mutant",
+      "name": "Dị Nhân Bọc Thép",
+      "type": "Enemy",
+      "role": "Quái thường, Dị nhân có lớp da dày",
+      "region": "Đồng Bằng Câm Lặng",
+      "stats": {
+        "maxHp": 300,
+        "maxMp": 0,
+        "attack": 48,
+        "defense": 50,
+        "magic": 0,
+        "magicDefense": 25,
+        "speed": 15,
+        "agility": 10,
+        "luck": 12,
+        "exp": 52
+      }
+    },
+    {
+      "id": "enemy_pulse_turret_old",
+      "name": "Trụ Súng Xung Cũ",
+      "type": "Enemy",
+      "role": "Quái thường, Tháp pháo năng lượng cũ",
+      "region": "Đồng Bằng Câm Lặng",
+      "stats": {
+        "maxHp": 250,
+        "maxMp": 100,
+        "attack": 65,
+        "defense": 45,
+        "magic": 30,
+        "magicDefense": 35,
+        "speed": 0,
+        "agility": 0,
+        "luck": 10,
+        "exp": 50
+      }
+    },
+    {
+      "id": "enemy_looter_marauder",
+      "name": "Kẻ Cướp Phá Hoại",
+      "type": "Enemy",
+      "role": "Quái thường, Nhóm cướp bóc tấn công các khu vực",
+      "region": "Đồng Bằng Câm Lặng",
+      "stats": {
+        "maxHp": 200,
+        "maxMp": 15,
+        "attack": 50,
+        "defense": 28,
+        "magic": 8,
+        "magicDefense": 12,
+        "speed": 28,
+        "agility": 25,
+        "luck": 20,
+        "exp": 44
+      }
+    },
+    {
+      "id": "enemy_shadow_stalker",
+      "name": "Kẻ Rình Rập Bóng Tối",
+      "type": "Enemy",
+      "role": "Quái thường, Sinh vật lẩn khuất tấn công bất ngờ",
+      "region": "Đồng Bằng Câm Lặng",
+      "stats": {
+        "maxHp": 160,
+        "maxMp": 30,
+        "attack": 58,
+        "defense": 20,
+        "magic": 15,
+        "magicDefense": 15,
+        "speed": 35,
+        "agility": 38,
+        "luck": 25,
+        "exp": 47
+      }
+    },
+    {
+      "id": "boss_steel_tyrant",
+      "name": "Bá Vương Thép",
+      "type": "Enemy",
+      "role": "Boss, Lãnh đạo phe phái được tăng cường công nghệ",
+      "region": "Rừng Thép Đổ Nát",
+      "stats": {
+        "maxHp": 6000,
+        "maxMp": 1000,
+        "attack": 600,
+        "defense": 450,
+        "magic": 300,
+        "magicDefense": 250,
+        "speed": 45,
+        "agility": 38,
+        "luck": 45,
+        "exp": 3000
+      }
+    },
+    {
+      "id": "enemy_faction_enforcer",
+      "name": "Kẻ Thi Hành Phe Phái",
+      "type": "Enemy",
+      "role": "Quái thường, Lính tinh nhuệ của các phe phái",
+      "region": "Rừng Thép Đổ Nát",
+      "stats": {
+        "maxHp": 400,
+        "maxMp": 150,
+        "attack": 80,
+        "defense": 60,
+        "magic": 40,
+        "magicDefense": 35,
+        "speed": 38,
+        "agility": 30,
+        "luck": 25,
+        "exp": 80
+      }
+    },
+    {
+      "id": "enemy_heavy_factory_bot",
+      "name": "Robot Nhà Máy Hạng Nặng",
+      "type": "Enemy",
+      "role": "Quái thường, Robot công nghiệp lớn",
+      "region": "Rừng Thép Đổ Nát",
+      "stats": {
+        "maxHp": 500,
+        "maxMp": 100,
+        "attack": 90,
+        "defense": 80,
+        "magic": 30,
+        "magicDefense": 40,
+        "speed": 25,
+        "agility": 20,
+        "luck": 20,
+        "exp": 90
+      }
+    },
+    {
+      "id": "enemy_mutated_industry_beast",
+      "name": "Quái Vật Công Nghiệp Đột Biến",
+      "type": "Enemy",
+      "role": "Quái thường, Sinh vật bị hóa chất công nghiệp biến đổi",
+      "region": "Rừng Thép Đổ Nát",
+      "stats": {
+        "maxHp": 450,
+        "maxMp": 0,
+        "attack": 70,
+        "defense": 50,
+        "magic": 0,
+        "magicDefense": 30,
+        "speed": 30,
+        "agility": 25,
+        "luck": 22,
+        "exp": 75
+      }
+    },
+    {
+      "id": "enemy_security_drone_factory",
+      "name": "Drone An Ninh Nhà Máy",
+      "type": "Enemy",
+      "role": "Quái thường, Drone bay giám sát",
+      "region": "Rừng Thép Đổ Nát",
+      "stats": {
+        "maxHp": 300,
+        "maxMp": 120,
+        "attack": 60,
+        "defense": 40,
+        "magic": 50,
+        "magicDefense": 45,
+        "speed": 45,
+        "agility": 40,
+        "luck": 30,
+        "exp": 65
+      }
+    },
+    {
+      "id": "enemy_saboteur_agent",
+      "name": "Đặc Vụ Phá Hoại",
+      "type": "Enemy",
+      "role": "Quái thường, Kẻ địch chuyên đặt bẫy",
+      "region": "Rừng Thép Đổ Nát",
+      "stats": {
+        "maxHp": 350,
+        "maxMp": 80,
+        "attack": 75,
+        "defense": 45,
+        "magic": 30,
+        "magicDefense": 28,
+        "speed": 40,
+        "agility": 50,
+        "luck": 35,
+        "exp": 85
+      }
+    },
+    {
+      "id": "enemy_flame_thrower_troop",
+      "name": "Lính Phun Lửa",
+      "type": "Enemy",
+      "role": "Quái thường, Lính sử dụng súng phun lửa",
+      "region": "Rừng Thép Đổ Nát",
+      "stats": {
+        "maxHp": 420,
+        "maxMp": 100,
+        "attack": 85,
+        "defense": 55,
+        "magic": 20,
+        "magicDefense": 30,
+        "speed": 30,
+        "agility": 25,
+        "luck": 25,
+        "exp": 88
+      }
+    },
+    {
+      "id": "enemy_acid_spitting_plant",
+      "name": "Thực Vật Phun Axit",
+      "type": "Enemy",
+      "role": "Quái thường, Cây đột biến nhả axit",
+      "region": "Rừng Thép Đổ Nát",
+      "stats": {
+        "maxHp": 380,
+        "maxMp": 100,
+        "attack": 65,
+        "defense": 40,
+        "magic": 55,
+        "magicDefense": 50,
+        "speed": 10,
+        "agility": 8,
+        "luck": 15,
+        "exp": 70
+      }
+    },
+    {
+      "id": "enemy_factory_guard_armored",
+      "name": "Lính Canh Nhà Máy Bọc Thép",
+      "type": "Enemy",
+      "role": "Quái thường, Lính canh trang bị giáp nặng",
+      "region": "Rừng Thép Đổ Nát",
+      "stats": {
+        "maxHp": 550,
+        "maxMp": 80,
+        "attack": 80,
+        "defense": 90,
+        "magic": 25,
+        "magicDefense": 40,
+        "speed": 20,
+        "agility": 18,
+        "luck": 20,
+        "exp": 95
+      }
+    },
+    {
+      "id": "enemy_electrocution_trap",
+      "name": "Bẫy Điện Giật",
+      "type": "Enemy",
+      "role": "Quái thường, Cạm bẫy điện ẩn",
+      "region": "Rừng Thép Đổ Nát",
+      "stats": {
+        "maxHp": 200,
+        "maxMp": 0,
+        "attack": 100,
+        "defense": 20,
+        "magic": 0,
+        "magicDefense": 30,
+        "speed": 0,
+        "agility": 0,
+        "luck": 10,
+        "exp": 50
+      }
+    },
+    {
+      "id": "enemy_cybernetic_thug",
+      "name": "Kẻ Côn Đồ Cấy Ghép",
+      "type": "Enemy",
+      "role": "Quái thường, Kẻ côn đồ với bộ phận máy móc",
+      "region": "Rừng Thép Đổ Nát",
+      "stats": {
+        "maxHp": 400,
+        "maxMp": 50,
+        "attack": 95,
+        "defense": 65,
+        "magic": 15,
+        "magicDefense": 25,
+        "speed": 32,
+        "agility": 28,
+        "luck": 28,
+        "exp": 82
+      }
+    },
+    {
+      "id": "enemy_crushing_press_bot",
+      "name": "Robot Ép Cơ Khí",
+      "type": "Enemy",
+      "role": "Quái thường, Robot được thiết kế để nghiền nát",
+      "region": "Rừng Thép Đổ Nát",
+      "stats": {
+        "maxHp": 600,
+        "maxMp": 80,
+        "attack": 110,
+        "defense": 100,
+        "magic": 10,
+        "magicDefense": 30,
+        "speed": 15,
+        "agility": 12,
+        "luck": 18,
+        "exp": 100
+      }
+    },
+    {
+      "id": "enemy_toxic_gas_emitter",
+      "name": "Sinh Vật Phát Khí Độc",
+      "type": "Enemy",
+      "role": "Quái thường, Sinh vật thải ra khí độc",
+      "region": "Rừng Thép Đổ Nát",
+      "stats": {
+        "maxHp": 350,
+        "maxMp": 120,
+        "attack": 60,
+        "defense": 35,
+        "magic": 60,
+        "magicDefense": 55,
+        "speed": 20,
+        "agility": 18,
+        "luck": 15,
+        "exp": 72
+      }
+    },
+    {
+      "id": "enemy_elite_sniper_faction",
+      "name": "Xạ Thủ Tinh Nhuệ Phe Phái",
+      "type": "Enemy",
+      "role": "Quái thường, Lính bắn tỉa",
+      "region": "Rừng Thép Đổ Nát",
+      "stats": {
+        "maxHp": 380,
+        "maxMp": 70,
+        "attack": 90,
+        "defense": 50,
+        "magic": 20,
+        "magicDefense": 30,
+        "speed": 40,
+        "agility": 35,
+        "luck": 30,
+        "exp": 88
+      }
+    },
+    {
+      "id": "enemy_armored_mine_layer",
+      "name": "Robot Đặt Mìn Bọc Thép",
+      "type": "Enemy",
+      "role": "Quái thường, Robot chuyên đặt mìn",
+      "region": "Rừng Thép Đổ Nát",
+      "stats": {
+        "maxHp": 480,
+        "maxMp": 60,
+        "attack": 70,
+        "defense": 75,
+        "magic": 20,
+        "magicDefense": 35,
+        "speed": 22,
+        "agility": 20,
+        "luck": 20,
+        "exp": 92
+      }
+    },
+    {
+      "id": "enemy_rebel_insurgent_force",
+      "name": "Lực Lượng Nổi Dậy Nổi Loạn",
+      "type": "Enemy",
+      "role": "Quái thường, Phe phái nhỏ chống lại tất cả",
+      "region": "Rừng Thép Đổ Nát",
+      "stats": {
+        "maxHp": 400,
+        "maxMp": 80,
+        "attack": 80,
+        "defense": 55,
+        "magic": 30,
+        "magicDefense": 30,
+        "speed": 35,
+        "agility": 30,
+        "luck": 30,
+        "exp": 78
+      }
+    },
+    {
+      "id": "enemy_heavy_machine_gun_turret",
+      "name": "Trụ Súng Máy Hạng Nặng",
+      "type": "Enemy",
+      "role": "Quái thường, Tháp pháo tự động mạnh",
+      "region": "Rừng Thép Đổ Nát",
+      "stats": {
+        "maxHp": 650,
+        "maxMp": 150,
+        "attack": 120,
+        "defense": 80,
+        "magic": 40,
+        "magicDefense": 50,
+        "speed": 0,
+        "agility": 0,
+        "luck": 15,
+        "exp": 110
+      }
+    },
+    {
+      "id": "enemy_chemical_mutant",
+      "name": "Dị Nhân Hóa Chất",
+      "type": "Enemy",
+      "role": "Quái thường, Sinh vật biến đổi do tiếp xúc hóa chất",
+      "region": "Rừng Thép Đổ Nát",
+      "stats": {
+        "maxHp": 420,
+        "maxMp": 0,
+        "attack": 75,
+        "defense": 45,
+        "magic": 0,
+        "magicDefense": 25,
+        "speed": 25,
+        "agility": 20,
+        "luck": 18,
+        "exp": 76
+      }
+    },
+    {
+      "id": "enemy_factory_assassin",
+      "name": "Sát Thủ Nhà Máy",
+      "type": "Enemy",
+      "role": "Quái thường, Kẻ địch chuyên ám sát trong khu phức hợp",
+      "region": "Rừng Thép Đổ Nát",
+      "stats": {
+        "maxHp": 360,
+        "maxMp": 70,
+        "attack": 90,
+        "defense": 48,
+        "magic": 25,
+        "magicDefense": 25,
+        "speed": 42,
+        "agility": 48,
+        "luck": 32,
+        "exp": 87
+      }
+    },
+    {
+      "id": "enemy_controlled_engineer_bot",
+      "name": "Robot Kỹ Sư Bị Kiểm Soát",
+      "type": "Enemy",
+      "role": "Quái thường, Robot sửa chữa bị lợi dụng tấn công",
+      "region": "Rừng Thép Đổ Nát",
+      "stats": {
+        "maxHp": 400,
+        "maxMp": 100,
+        "attack": 70,
+        "defense": 60,
+        "magic": 50,
+        "magicDefense": 45,
+        "speed": 30,
+        "agility": 28,
+        "luck": 25,
+        "exp": 83
+      }
+    },
+    {
+      "id": "boss_architect_grand_commander",
+      "name": "Tổng Chỉ Huy Kiến Trúc Sư",
+      "type": "Enemy",
+      "role": "Boss, Chỉ huy cấp cao của The Architects",
+      "region": "Thung Lũng Huyền Bí",
+      "stats": {
+        "maxHp": 12000,
+        "maxMp": 2000,
+        "attack": 1200,
+        "defense": 800,
+        "magic": 600,
+        "magicDefense": 500,
+        "speed": 55,
+        "agility": 48,
+        "luck": 55,
+        "exp": 6000
+      }
+    },
+    {
+      "id": "enemy_architect_elite_guard",
+      "name": "Lính Canh Tinh Nhuệ Kiến Trúc Sư",
+      "type": "Enemy",
+      "role": "Quái thường, Lính bảo vệ cao cấp của The Architects",
+      "region": "Thung Lũng Huyền Bí",
+      "stats": {
+        "maxHp": 800,
+        "maxMp": 200,
+        "attack": 160,
+        "defense": 120,
+        "magic": 80,
+        "magicDefense": 70,
+        "speed": 48,
+        "agility": 40,
+        "luck": 35,
+        "exp": 180
+      }
+    },
+    {
+      "id": "enemy_advanced_surveillance_bot",
+      "name": "Robot Giám Sát Cao Cấp",
+      "type": "Enemy",
+      "role": "Quái thường, Robot trinh sát tàng hình",
+      "region": "Thung Lũng Huyền Bí",
+      "stats": {
+        "maxHp": 600,
+        "maxMp": 250,
+        "attack": 100,
+        "defense": 80,
+        "magic": 120,
+        "magicDefense": 100,
+        "speed": 55,
+        "agility": 60,
+        "luck": 45,
+        "exp": 150
+      }
+    },
+    {
+      "id": "enemy_mutated_experiment_subject",
+      "name": "Đối Tượng Thí Nghiệm Đột Biến",
+      "type": "Enemy",
+      "role": "Quái thường, Sinh vật từ thí nghiệm",
+      "region": "Thung Lũng Huyền Bí",
+      "stats": {
+        "maxHp": 900,
+        "maxMp": 0,
+        "attack": 180,
+        "defense": 100,
+        "magic": 0,
+        "magicDefense": 60,
+        "speed": 40,
+        "agility": 35,
+        "luck": 30,
+        "exp": 190
+      }
+    },
+    {
+      "id": "enemy_stealth_drone_architects",
+      "name": "Drone Tàng Hình Kiến Trúc Sư",
+      "type": "Enemy",
+      "role": "Quái thường, Drone tàng hình tấn công bất ngờ",
+      "region": "Thung Lũng Huyền Bí",
+      "stats": {
+        "maxHp": 500,
+        "maxMp": 200,
+        "attack": 120,
+        "defense": 70,
+        "magic": 100,
+        "magicDefense": 90,
+        "speed": 60,
+        "agility": 70,
+        "luck": 50,
+        "exp": 160
+      }
+    },
+    {
+      "id": "enemy_mind_controlled_scientist",
+      "name": "Nhà Khoa Học Bị Kiểm Soát Tâm Trí",
+      "type": "Enemy",
+      "role": "Quái thường, Các nhà khoa học bị tẩy não chiến đấu",
+      "region": "Thung Lũng Huyền Bí",
+      "stats": {
+        "maxHp": 700,
+        "maxMp": 300,
+        "attack": 80,
+        "defense": 60,
+        "magic": 150,
+        "magicDefense": 130,
+        "speed": 35,
+        "agility": 30,
+        "luck": 20,
+        "exp": 170
+      }
+    },
+    {
+      "id": "enemy_architect_assassin_bot",
+      "name": "Robot Sát Thủ Kiến Trúc Sư",
+      "type": "Enemy",
+      "role": "Quái thường, Robot được thiết kế để ám sát",
+      "region": "Thung Lũng Huyền Bí",
+      "stats": {
+        "maxHp": 750,
+        "maxMp": 180,
+        "attack": 190,
+        "defense": 90,
+        "magic": 70,
+        "magicDefense": 60,
+        "speed": 65,
+        "agility": 68,
+        "luck": 40,
+        "exp": 200
+      }
+    },
+    {
+      "id": "enemy_energy_shield_guard",
+      "name": "Lính Canh Khiên Năng Lượng",
+      "type": "Enemy",
+      "role": "Quái thường, Lính có khiên năng lượng",
+      "region": "Thung Lũng Huyền Bí",
+      "stats": {
+        "maxHp": 1000,
+        "maxMp": 220,
+        "attack": 150,
+        "defense": 180,
+        "magic": 60,
+        "magicDefense": 90,
+        "speed": 40,
+        "agility": 35,
+        "luck": 30,
+        "exp": 210
+      }
+    },
+    {
+      "id": "enemy_hypnotic_plant",
+      "name": "Thực Vật Gây Mê",
+      "type": "Enemy",
+      "role": "Quái thường, Cây có khả năng thôi miên",
+      "region": "Thung Lũng Huyền Bí",
+      "stats": {
+        "maxHp": 700,
+        "maxMp": 200,
+        "attack": 80,
+        "defense": 80,
+        "magic": 130,
+        "magicDefense": 120,
+        "speed": 15,
+        "agility": 10,
+        "luck": 25,
+        "exp": 140
+      }
+    },
+    {
+      "id": "enemy_architect_engineer_combat",
+      "name": "Kỹ Sư Chiến Đấu Kiến Trúc Sư",
+      "type": "Enemy",
+      "role": "Quái thường, Kỹ sư với công cụ biến thành vũ khí",
+      "region": "Thung Lũng Huyền Bí",
+      "stats": {
+        "maxHp": 850,
+        "maxMp": 280,
+        "attack": 140,
+        "defense": 110,
+        "magic": 110,
+        "magicDefense": 95,
+        "speed": 45,
+        "agility": 42,
+        "luck": 38,
+        "exp": 195
+      }
+    },
+    {
+      "id": "enemy_teleporting_mutant",
+      "name": "Dị Nhân Dịch Chuyển",
+      "type": "Enemy",
+      "role": "Quái thường, Sinh vật có khả năng dịch chuyển tức thời",
+      "region": "Thung Lũng Huyền Bí",
+      "stats": {
+        "maxHp": 700,
+        "maxMp": 150,
+        "attack": 170,
+        "defense": 80,
+        "magic": 0,
+        "magicDefense": 50,
+        "speed": 70,
+        "agility": 75,
+        "luck": 40,
+        "exp": 185
+      }
+    },
+    {
+      "id": "enemy_anti_personnel_turret_arc",
+      "name": "Trụ Súng Chống Người Kiến Trúc Sư",
+      "type": "Enemy",
+      "role": "Quái thường, Tháp pháo tự động cho mục tiêu sống",
+      "region": "Thung Lũng Huyền Bí",
+      "stats": {
+        "maxHp": 1200,
+        "maxMp": 300,
+        "attack": 200,
+        "defense": 150,
+        "magic": 100,
+        "magicDefense": 120,
+        "speed": 0,
+        "agility": 0,
+        "luck": 20,
+        "exp": 220
+      }
+    },
+    {
+      "id": "enemy_bio_engineered_hound",
+      "name": "Chó Sinh Học Kiến Trúc Sư",
+      "type": "Enemy",
+      "role": "Quái thường, Chó săn được biến đổi gen",
+      "region": "Thung Lũng Huyền Bí",
+      "stats": {
+        "maxHp": 650,
+        "maxMp": 0,
+        "attack": 150,
+        "defense": 90,
+        "magic": 0,
+        "magicDefense": 40,
+        "speed": 55,
+        "agility": 50,
+        "luck": 30,
+        "exp": 175
+      }
+    },
+    {
+      "id": "enemy_architect_command_drone",
+      "name": "Drone Chỉ Huy Kiến Trúc Sư",
+      "type": "Enemy",
+      "role": "Quái thường, Drone chỉ huy các đơn vị khác",
+      "region": "Thung Lũng Huyền Bí",
+      "stats": {
+        "maxHp": 700,
+        "maxMp": 300,
+        "attack": 100,
+        "defense": 90,
+        "magic": 150,
+        "magicDefense": 130,
+        "speed": 50,
+        "agility": 55,
+        "luck": 45,
+        "exp": 180
+      }
+    },
+    {
+      "id": "enemy_energy_blast_mage",
+      "name": "Pháp Sư Năng Lượng Kiến Trúc Sư",
+      "type": "Enemy",
+      "role": "Quái thường, Kẻ địch sử dụng năng lượng tấn công",
+      "region": "Thung Lũng Huyền Bí",
+      "stats": {
+        "maxHp": 600,
+        "maxMp": 400,
+        "attack": 90,
+        "defense": 70,
+        "magic": 180,
+        "magicDefense": 160,
+        "speed": 40,
+        "agility": 35,
+        "luck": 40,
+        "exp": 190
+      }
+    },
+    {
+      "id": "enemy_invisible_stalker_arc",
+      "name": "Kẻ Rình Rập Vô Hình Kiến Trúc Sư",
+      "type": "Enemy",
+      "role": "Quái thường, Kẻ địch tàng hình hoàn toàn",
+      "region": "Thung Lũng Huyền Bí",
+      "stats": {
+        "maxHp": 550,
+        "maxMp": 150,
+        "attack": 180,
+        "defense": 70,
+        "magic": 80,
+        "magicDefense": 75,
+        "speed": 60,
+        "agility": 70,
+        "luck": 55,
+        "exp": 205
+      }
+    },
+    {
+      "id": "enemy_architect_heavy_trooper",
+      "name": "Lính Hạng Nặng Kiến Trúc Sư",
+      "type": "Enemy",
+      "role": "Quái thường, Lính được trang bị vũ khí hạng nặng",
+      "region": "Thung Lũng Huyền Bí",
+      "stats": {
+        "maxHp": 1100,
+        "maxMp": 150,
+        "attack": 220,
+        "defense": 160,
+        "magic": 50,
+        "magicDefense": 80,
+        "speed": 30,
+        "agility": 25,
+        "luck": 25,
+        "exp": 230
+      }
+    },
+    {
+      "id": "enemy_self_destruct_bot",
+      "name": "Robot Tự Hủy",
+      "type": "Enemy",
+      "role": "Quái thường, Robot chạy lại gần và tự nổ",
+      "region": "Thung Lũng Huyền Bí",
+      "stats": {
+        "maxHp": 400,
+        "maxMp": 0,
+        "attack": 300,
+        "defense": 50,
+        "magic": 0,
+        "magicDefense": 30,
+        "speed": 40,
+        "agility": 35,
+        "luck": 20,
+        "exp": 160
+      }
+    },
+    {
+      "id": "enemy_hallucinogen_emitter",
+      "name": "Sinh Vật Gây Ảo Giác",
+      "type": "Enemy",
+      "role": "Quái thường, Sinh vật phát ra chất gây ảo giác",
+      "region": "Thung Lũng Huyền Bí",
+      "stats": {
+        "maxHp": 600,
+        "maxMp": 250,
+        "attack": 70,
+        "defense": 60,
+        "magic": 160,
+        "magicDefense": 140,
+        "speed": 45,
+        "agility": 50,
+        "luck": 50,
+        "exp": 170
+      }
+    },
+    {
+      "id": "enemy_architect_tactical_drone",
+      "name": "Drone Chiến Thuật Kiến Trúc Sư",
+      "type": "Enemy",
+      "role": "Quái thường, Drone hỗ trợ chiến thuật trên chiến trường",
+      "region": "Thung Lũng Huyền Bí",
+      "stats": {
+        "maxHp": 650,
+        "maxMp": 280,
+        "attack": 110,
+        "defense": 85,
+        "magic": 130,
+        "magicDefense": 110,
+        "speed": 55,
+        "agility": 60,
+        "luck": 48,
+        "exp": 178
+      }
+    },
+    {
+      "id": "boss_architect_prime",
+      "name": "The Architect Prime",
+      "type": "Enemy",
+      "role": "Boss, Kẻ thù chính, bộ não đứng sau đại dịch",
+      "region": "Vùng Đất Hứa Cuối Cùng",
+      "stats": {
+        "maxHp": 30000,
+        "maxMp": 5000,
+        "attack": 2500,
+        "defense": 1800,
+        "magic": 1500,
+        "magicDefense": 1200,
+        "speed": 70,
+        "agility": 60,
+        "luck": 80,
+        "exp": 15000
+      }
+    },
+    {
+      "id": "enemy_architect_omega_guard",
+      "name": "Lính Canh Omega Kiến Trúc Sư",
+      "type": "Enemy",
+      "role": "Quái thường, Lực lượng tinh nhuệ nhất của Architects",
+      "region": "Vùng Đất Hứa Cuối Cùng",
+      "stats": {
+        "maxHp": 1500,
+        "maxMp": 300,
+        "attack": 300,
+        "defense": 220,
+        "magic": 150,
+        "magicDefense": 130,
+        "speed": 60,
+        "agility": 50,
+        "luck": 40,
+        "exp": 300
+      }
+    },
+    {
+      "id": "enemy_final_war_machine",
+      "name": "Cỗ Máy Chiến Tranh Cuối Cùng",
+      "type": "Enemy",
+      "role": "Quái thường, Robot chiến đấu tối tân",
+      "region": "Vùng Đất Hứa Cuối Cùng",
+      "stats": {
+        "maxHp": 2000,
+        "maxMp": 400,
+        "attack": 400,
+        "defense": 300,
+        "magic": 100,
+        "magicDefense": 180,
+        "speed": 40,
+        "agility": 35,
+        "luck": 35,
+        "exp": 350
+      }
+    },
+    {
+      "id": "enemy_engineered_horror",
+      "name": "Quái Vật Sinh Học Hoàn Hảo",
+      "type": "Enemy",
+      "role": "Quái thường, Sinh vật được biến đổi gen ở cấp độ cao nhất",
+      "region": "Vùng Đất Hứa Cuối Cùng",
+      "stats": {
+        "maxHp": 1800,
+        "maxMp": 0,
+        "attack": 350,
+        "defense": 250,
+        "magic": 0,
+        "magicDefense": 100,
+        "speed": 50,
+        "agility": 45,
+        "luck": 40,
+        "exp": 320
+      }
+    },
+    {
+      "id": "enemy_orbital_defense_drone",
+      "name": "Drone Phòng Thủ Quỹ Đạo",
+      "type": "Enemy",
+      "role": "Quái thường, Drone hỗ trợ từ trên không",
+      "region": "Vùng Đất Hứa Cuối Cùng",
+      "stats": {
+        "maxHp": 1000,
+        "maxMp": 500,
+        "attack": 200,
+        "defense": 150,
+        "magic": 250,
+        "magicDefense": 200,
+        "speed": 70,
+        "agility": 65,
+        "luck": 50,
+        "exp": 280
+      }
+    },
+    {
+      "id": "enemy_architect_high_council",
+      "name": "Thành Viên Hội Đồng Cao Cấp Kiến Trúc Sư",
+      "type": "Enemy",
+      "role": "Quái thường, Các thành viên cấp cao của Architects",
+      "region": "Vùng Đất Hứa Cuối Cùng",
+      "stats": {
+        "maxHp": 1600,
+        "maxMp": 600,
+        "attack": 180,
+        "defense": 150,
+        "magic": 300,
+        "magicDefense": 280,
+        "speed": 45,
+        "agility": 40,
+        "luck": 60,
+        "exp": 310
+      }
+    },
+    {
+      "id": "enemy_ultimate_assault_bot",
+      "name": "Robot Tấn Công Tối Thượng",
+      "type": "Enemy",
+      "role": "Quái thường, Robot chiến đấu không ngừng nghỉ",
+      "region": "Vùng Đất Hứa Cuối Cùng",
+      "stats": {
+        "maxHp": 1700,
+        "maxMp": 300,
+        "attack": 380,
+        "defense": 280,
+        "magic": 80,
+        "magicDefense": 150,
+        "speed": 55,
+        "agility": 48,
+        "luck": 38,
+        "exp": 330
+      }
+    },
+    {
+      "id": "enemy_reality_distorter_unit",
+      "name": "Đơn Vị Bóp Méo Thực Tại",
+      "type": "Enemy",
+      "role": "Quái thường, Đơn vị có khả năng làm sai lệch thực tại",
+      "region": "Vùng Đất Hứa Cuối Cùng",
+      "stats": {
+        "maxHp": 1200,
+        "maxMp": 700,
+        "attack": 150,
+        "defense": 120,
+        "magic": 350,
+        "magicDefense": 320,
+        "speed": 60,
+        "agility": 60,
+        "luck": 70,
+        "exp": 290
+      }
+    },
+    {
+      "id": "enemy_psychic_controller",
+      "name": "Kẻ Kiểm Soát Tâm Linh",
+      "type": "Enemy",
+      "role": "Quái thường, Kẻ địch có khả năng điều khiển tâm trí",
+      "region": "Vùng Đất Hứa Cuối Cùng",
+      "stats": {
+        "maxHp": 1000,
+        "maxMp": 800,
+        "attack": 120,
+        "defense": 100,
+        "magic": 400,
+        "magicDefense": 380,
+        "speed": 50,
+        "agility": 45,
+        "luck": 75,
+        "exp": 270
+      }
+    },
+    {
+      "id": "enemy_architect_prime_clone",
+      "name": "Bản Sao The Architect Prime",
+      "type": "Enemy",
+      "role": "Quái thường, Các bản sao yếu hơn của The Architect Prime",
+      "region": "Vùng Đất Hứa Cuối Cùng",
+      "stats": {
+        "maxHp": 4000,
+        "maxMp": 1000,
+        "attack": 800,
+        "defense": 600,
+        "magic": 500,
+        "magicDefense": 400,
+        "speed": 65,
+        "agility": 55,
+        "luck": 60,
+        "exp": 1200
+      }
+    },
+    {
+      "id": "enemy_plasma_artillery_turret",
+      "name": "Trụ Pháo Plasma",
+      "type": "Enemy",
+      "role": "Quái thường, Tháp pháo mạnh mẽ sử dụng plasma",
+      "region": "Vùng Đất Hứa Cuối Cùng",
+      "stats": {
+        "maxHp": 2500,
+        "maxMp": 600,
+        "attack": 500,
+        "defense": 350,
+        "magic": 300,
+        "magicDefense": 250,
+        "speed": 0,
+        "agility": 0,
+        "luck": 25,
+        "exp": 400
+      }
+    },
+    {
+      "id": "enemy_dimensional_rift_creature",
+      "name": "Sinh Vật Hố Không Gian",
+      "type": "Enemy",
+      "role": "Quái thường, Sinh vật từ chiều không gian khác",
+      "region": "Vùng Đất Hứa Cuối Cùng",
+      "stats": {
+        "maxHp": 1400,
+        "maxMp": 500,
+        "attack": 250,
+        "defense": 200,
+        "magic": 280,
+        "magicDefense": 220,
+        "speed": 65,
+        "agility": 60,
+        "luck": 65,
+        "exp": 310
+      }
+    },
+    {
+      "id": "enemy_cyber_legionnaire",
+      "name": "Quân Đoàn Cyber",
+      "type": "Enemy",
+      "role": "Quái thường, Lính cybernetically enhanced",
+      "region": "Vùng Đất Hứa Cuối Cùng",
+      "stats": {
+        "maxHp": 1600,
+        "maxMp": 200,
+        "attack": 320,
+        "defense": 200,
+        "magic": 100,
+        "magicDefense": 120,
+        "speed": 55,
+        "agility": 50,
+        "luck": 40,
+        "exp": 300
+      }
+    },
+    {
+      "id": "enemy_gravity_manipulator",
+      "name": "Kẻ Thao Túng Trọng Lực",
+      "type": "Enemy",
+      "role": "Quái thường, Kẻ địch có thể điều khiển trọng lực",
+      "region": "Vùng Đất Hứa Cuối Cùng",
+      "stats": {
+        "maxHp": 1300,
+        "maxMp": 700,
+        "attack": 200,
+        "defense": 180,
+        "magic": 350,
+        "magicDefense": 300,
+        "speed": 58,
+        "agility": 52,
+        "luck": 68,
+        "exp": 295
+      }
+    },
+    {
+      "id": "enemy_architect_berserker",
+      "name": "Kẻ Cuồng Nộ Kiến Trúc Sư",
+      "type": "Enemy",
+      "role": "Quái thường, Kẻ địch tấn công không ngừng nghỉ",
+      "region": "Vùng Đất Hứa Cuối Cùng",
+      "stats": {
+        "maxHp": 1900,
+        "maxMp": 100,
+        "attack": 450,
+        "defense": 280,
+        "magic": 50,
+        "magicDefense": 100,
+        "speed": 50,
+        "agility": 40,
+        "luck": 30,
+        "exp": 340
+      }
+    },
+    {
+      "id": "enemy_energy_drainer_entity",
+      "name": "Thực Thể Hút Năng Lượng",
+      "type": "Enemy",
+      "role": "Quái thường, Sinh vật hút năng lượng từ kẻ thù",
+      "region": "Vùng Đất Hứa Cuối Cùng",
+      "stats": {
+        "maxHp": 1200,
+        "maxMp": 800,
+        "attack": 180,
+        "defense": 150,
+        "magic": 380,
+        "magicDefense": 350,
+        "speed": 45,
+        "agility": 40,
+        "luck": 65,
+        "exp": 285
+      }
+    },
+    {
+      "id": "enemy_final_defense_mech",
+      "name": "Thiết Bị Phòng Thủ Cuối Cùng",
+      "type": "Enemy",
+      "role": "Quái thường, Robot phòng thủ kiên cố",
+      "region": "Vùng Đất Hứa Cuối Cùng",
+      "stats": {
+        "maxHp": 2200,
+        "maxMp": 500,
+        "attack": 300,
+        "defense": 400,
+        "magic": 150,
+        "magicDefense": 250,
+        "speed": 30,
+        "agility": 25,
+        "luck": 28,
+        "exp": 360
+      }
+    },
+    {
+      "id": "enemy_swarm_of_nanobots",
+      "name": "Bầy Nanobot",
+      "type": "Enemy",
+      "role": "Quái thường, Đàn nanobot tấn công kẻ thù",
+      "region": "Vùng Đất Hứa Cuối Cùng",
+      "stats": {
+        "maxHp": 800,
+        "maxMp": 400,
+        "attack": 250,
+        "defense": 100,
+        "magic": 200,
+        "magicDefense": 150,
+        "speed": 75,
+        "agility": 80,
+        "luck": 55,
+        "exp": 260
+      }
+    },
+    {
+      "id": "enemy_architect_elite_marksman",
+      "name": "Xạ Thủ Tinh Nhuệ Kiến Trúc Sư",
+      "type": "Enemy",
+      "role": "Quái thường, Lính bắn tỉa với độ chính xác cao",
+      "region": "Vùng Đất Hứa Cuối Cùng",
+      "stats": {
+        "maxHp": 1400,
+        "maxMp": 200,
+        "attack": 350,
+        "defense": 200,
+        "magic": 80,
+        "magicDefense": 150,
+        "speed": 60,
+        "agility": 55,
+        "luck": 45,
+        "exp": 315
+      }
+    },
+    {
+      "id": "enemy_temporal_anomaly_unit",
+      "name": "Đơn Vị Dị Thường Thời Gian",
+      "type": "Enemy",
+      "role": "Quái thường, Đơn vị có khả năng làm chậm hoặc tua nhanh thời gian cục bộ",
+      "region": "Vùng Đất Hứa Cuối Cùng}]```",
+      "stats": {
+        "maxHp": 1500,
+        "maxMp": 700,
+        "attack": 220,
+        "defense": 180,
+        "magic": 350,
+        "magicDefense": 320,
+        "speed": 65,
+        "agility": 70,
+        "luck": 70,
+        "exp": 325
+      }
+    }
+  ],
+  "characterDetails": [],
+  "quests": [],
+  "dialogues": []
+}

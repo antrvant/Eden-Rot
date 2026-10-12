@@ -1,0 +1,11 @@
+nếu chưa install thì bam cmd rồi dùng lệnh 
+npm install
+
+thay API AI key:  Thêm dòng sau vào file .env:code
+Env
+OPENAI_API_KEY=sk-xxxx... (Khóa API của bạn)
+
+chạy:
+npm run dev
+
+Mở trình duyệt và vào địa chỉ http://localhost:3000
